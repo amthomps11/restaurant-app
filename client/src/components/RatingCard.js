@@ -12,12 +12,18 @@ class RatingCard extends Component {
       cardData: []
     };
   }
+  
 
   render() {
     console.log("card data below");
     console.log(this.props.cardData);
     console.log(this.props.yelpData);
     console.log(this.props.foursquareData);
+    console.log(this.props.ratingColor)
+    const ratingColor = {
+      backgroundColor: `#${this.props.ratingColor}`
+    }
+
     return (
       <div className="ratingcard">
         <React.Fragment>
@@ -25,7 +31,7 @@ class RatingCard extends Component {
             <React.Fragment>
               <img src={`${data.venue.bestPhoto.prefix}500x500${data.venue.bestPhoto.suffix}`}/>
               <div className="ratingandheader">
-                <div className="ratingCircle">
+                <div className="ratingCircle" style={ratingColor}>
                   {(
                     (this.props.yelpData + this.props.foursquareData) /
                     2
