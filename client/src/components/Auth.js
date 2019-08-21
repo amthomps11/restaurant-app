@@ -19,7 +19,8 @@ class Auth extends React.Component {
     super(props);
     this.state = {
       isSignedIn: false,
-      user: {}
+      user: {},
+      restToFav: {}
     };
   }
 
@@ -40,6 +41,7 @@ class Auth extends React.Component {
   loginUser = async credentials => {
     try {
       const user = await login(credentials);
+      console.log(user);
       this.setState(state => {
         return {
           isSignedIn: true,
@@ -54,6 +56,7 @@ class Auth extends React.Component {
   signUpUser = async credentials => {
     try {
       const user = await signUp(credentials);
+
       this.setState(state => {
         return {
           isSignedIn: true,
@@ -67,7 +70,7 @@ class Auth extends React.Component {
 
   signOutUser = () => {
     authService.signOut();
-
+    localStorage.clear();
     this.setState(state => {
       return { isSignedIn: false, user: {} };
     });
@@ -77,34 +80,41 @@ class Auth extends React.Component {
     const { isSignedIn, user } = this.state;
     return (
       <div className="app-container">
-          <Route exact path="/" component={Home} />
-          <Protectedroute
-            path={`/dashboard/`}
-            user={user}
-            venues={user.venues}
-            component={Dashboard}
-          />
-          <Route
-            path="/login"
-            render={props => (
-              <Login
-                {...props}
-                handleLogin={this.loginUser}
-                isSignedIn={isSignedIn}
-              />
-            )}
-          />
-          <Route
-            path="/signup"
-            render={props => (
-              <SignupForm
-                {...props}
-                handleSignup={this.signUpUser}
-                isSignedIn={isSignedIn}
-                signUp={signUp}
-              />
-            )}
-          />
+        <Route
+          exact
+          path="/"
+          render={props => <Home {...props} user={user} />}
+        />
+
+        <Protectedroute
+          path={`/dashboard/`}
+          component={Dashboard}
+          user={user}
+        />
+
+        <Route
+          path="/login"
+          render={props => (
+            <Login
+              {...props}
+              handleLogin={this.loginUser}
+              isSignedIn={isSignedIn}
+            />
+          )}
+        />
+
+        <Route
+          path="/signup"
+          render={props => (
+            <SignupForm
+              {...props}
+              handleSignup={this.signUpUser}
+              isSignedIn={isSignedIn}
+              signUp={signUp}
+            />
+          )}
+        />
+        <button onClick={this.signOutUser}>sign out</button>
       </div>
     );
   }
