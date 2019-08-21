@@ -13,7 +13,8 @@ class Home extends React.Component {
       review: "",
       yelpVenueID: "",
       cardData: [],
-      restObj: {}
+      restObj: {},
+      ratingColor: ''
     };
   }
 
@@ -48,6 +49,7 @@ class Home extends React.Component {
             const foursquareData = res.data.response.venue.rating;
             this.setState({ foursquareData: foursquareData });
             await this.setState({ cardData: [res.data.response] });
+            await this.setState({ ratingColor: res.data.response.venue.ratingColor });
           });
       });
 
@@ -94,7 +96,7 @@ class Home extends React.Component {
 
   render() {
     // console.log(this.props)
-    const { yelpData, foursquareData, review, cardData } = this.state;
+    const { yelpData, foursquareData, review, cardData, ratingColor } = this.state;
     // const imgURL = this.state.cardData[0]
     return (
 
@@ -111,9 +113,13 @@ class Home extends React.Component {
           review={review}
           cardData={cardData}
 
-     
+          ratingColor ={ratingColor}
+ 
+
+  
           userId={this.props.user.id}
           />
+
       </React.Fragment>
 
     );

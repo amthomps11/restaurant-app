@@ -54,13 +54,14 @@ body {
   justify-content: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.913);
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   border-radius: 50%;
   font-size: 30px;
   font-weight: bold;
   margin-top: -30px;
   border: white solid 3px;
+  margin-left: 15px;
 }
 
 .search {
@@ -337,9 +338,10 @@ img {
       box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
       height: 40px;
       padding: 8px;
+      transition: all 0.3s;
       &:focus {
         outline: 1px;
-        border: solid 2px #808dff;
+        border: solid 1px #808dff;
         box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
       }
     }

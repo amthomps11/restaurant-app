@@ -13,10 +13,17 @@ class RatingCard extends Component {
       cardData: []
     };
   }
+  
 
   handleFavorite = async e => {
     e.preventDefault();
     console.log(this.props.cardData);
+    console.log(this.props.yelpData);
+    console.log(this.props.foursquareData);
+    console.log(this.props.ratingColor)
+    const ratingColor = {
+      backgroundColor: `#${this.props.ratingColor}`
+    }
     const restObj = {
       name: this.props.cardData[0].venue.name,
       rating: parseInt(
@@ -45,7 +52,7 @@ class RatingCard extends Component {
                 }`}
               />
               <div className="ratingandheader">
-                <div className="ratingCircle">
+                <div className="ratingCircle" style={ratingColor}>
                   {(
                     (this.props.yelpData + this.props.foursquareData) /
                     2
