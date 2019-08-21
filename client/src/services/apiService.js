@@ -43,15 +43,8 @@ export const signUp = async data => {
   }
 };
 
-export const addRestaurant = async data => {
-  console.log(data);
-  let restObj = {};
-  const { userId, cardData } = data;
-  cardData.map(data => (restObj.name = data.name));
-  restObj.address = "tempAddress";
-  restObj.rating = 1;
-  console.log(restObj);
-  const response = await apiClient.post(`/dashboard/${userId}`, restObj);
+export const addRestaurant = async (userId, restaurant) => {
+  const response = await apiClient.post(`/dashboard/${userId}`, restaurant);
   return response;
 };
 
@@ -65,5 +58,15 @@ export const removeFavRestaurant = async data => {
     return user;
   } catch (e) {
     throw e;
+  }
+};
+
+export const showFaves = async () => {
+  try {
+    console.log("where");
+    const resp = await apiClient.get(`/dashboard/1/favorites`);
+    return resp.data.venues;
+  } catch (error) {
+    throw error;
   }
 };

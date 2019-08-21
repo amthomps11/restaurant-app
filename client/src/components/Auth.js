@@ -78,51 +78,41 @@ class Auth extends React.Component {
     const { isSignedIn, user } = this.state;
     return (
       <div className="app-container">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/dashboard">Dashboard</Link>
-          <Link to="login">Login</Link>
-          <Link to="/signup">Sign Up</Link>
-          <button onClick={this.signOutUser}>sign out</button>
-        </nav>
+        <Route
+          exact
+          path="/"
+          render={props => <Home {...props} user={user} />}
+        />
 
-        <main>
-          <Route
-            exact
-            path="/"
-            render={props => <Home {...props} user={user} />}
-          />
+        <Protectedroute
+          path={`/dashboard/`}
+          component={Dashboard}
+          user={user}
+          venues={user.venues}
+        />
 
-          <Protectedroute
-            path={`/dashboard/`}
-            component={Dashboard}
-            user={user}
-            venues={user.venues}
-          />
+        <Route
+          path="/login"
+          render={props => (
+            <Login
+              {...props}
+              handleLogin={this.loginUser}
+              isSignedIn={isSignedIn}
+            />
+          )}
+        />
 
-          <Route
-            path="/login"
-            render={props => (
-              <Login
-                {...props}
-                handleLogin={this.loginUser}
-                isSignedIn={isSignedIn}
-              />
-            )}
-          />
-
-          <Route
-            path="/signup"
-            render={props => (
-              <SignupForm
-                {...props}
-                handleSignup={this.signUpUser}
-                isSignedIn={isSignedIn}
-                signUp={signUp}
-              />
-            )}
-          />
-        </main>
+        <Route
+          path="/signup"
+          render={props => (
+            <SignupForm
+              {...props}
+              handleSignup={this.signUpUser}
+              isSignedIn={isSignedIn}
+              signUp={signUp}
+            />
+          )}
+        />
       </div>
     );
   }
