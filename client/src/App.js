@@ -4,6 +4,7 @@ import "./App.css";
 import Auth from "./components/Auth";
 //Components
 import MyNavbar from "./components/Navbar";
+import { isSignedIn, signOutUser } from "./components/Auth";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <div className= "App">
-        <MyNavbar />
+        <MyNavbar/>
         <Auth />
       </div>
     );
