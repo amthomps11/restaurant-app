@@ -2,6 +2,7 @@ import React from "react";
 import SearchBar from "./search";
 import axios from "axios";
 import RatingCard from "./RatingCard";
+import { EACCES } from "constants";
 require("dotenv").config();
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
@@ -19,7 +20,8 @@ class Home extends React.Component {
       yelpVenueID: "",
       cardData: [],
       restObj: {},
-      ratingColor: ""
+      ratingColor: "",
+      error: false
     };
   }
 
@@ -38,21 +40,16 @@ class Home extends React.Component {
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
+   try {
+    
     await axios
       .get(
-
-
-        `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${
-     
-          this.state.input1
-
-        }&limit=1`
+        `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${this.state.input1}&limit=1`
       )
       .then(async res => {
-        console.log(res);
         restObj.name = res.data.response.venues[0].name;
         const venueID = res.data.response.venues[0].id;
-        console.log("test");
+    
 
         await axios
           .get(
@@ -63,6 +60,7 @@ class Home extends React.Component {
             this.setState({ foursquareData: foursquareData });
             await this.setState({ cardData: [res.data.response] });
             await this.setState({ ratingColor: res.data.response.venue.ratingColor });
+            await this.setState({error: false})
           });
       });
 
@@ -81,7 +79,12 @@ class Home extends React.Component {
         await this.setState({ yelpData: yelpData });
         await this.setState({ yelpVenueID: res.data.businesses[0].id });
       })
-  };
+      
+    }
+    catch(e){
+     this.setState({error:true})
+    }
+}
 
   render() {
     // console.log(this.props)
@@ -100,15 +103,15 @@ class Home extends React.Component {
           handleSearch={this.handleSearch}
           handleCity={this.handleCity}
         />
-
-        <RatingCard
+        {this.state.error ? (<div className="error">No restaurant found</div>) : (<RatingCard
           yelpData={yelpData}
           foursquareData={foursquareData}
           review={review}
           cardData={cardData}
           ratingColor={ratingColor}
           userId={this.props.user.id}
-        />
+        />)}
+       
       </React.Fragment>
     );
   }

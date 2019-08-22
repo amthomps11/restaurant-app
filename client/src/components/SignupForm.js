@@ -9,7 +9,7 @@ class SignupForm extends React.Component {
       name: "",
       email: "",
       password: "",
-      showError: false
+      showError: false,
     };
   }
 
@@ -18,9 +18,10 @@ class SignupForm extends React.Component {
     console.log("submit form");
     const { name, email, password } = this.state;
     const { handleSignup } = this.props;
-    console.log(email);
-    console.log(password);
-    console.log(name);
+  if (name == false || email == false || password == false){
+    this.setState({showError: true})
+  }
+  else{
     try {
       const data = {
         name: this.state.name,
@@ -35,6 +36,7 @@ class SignupForm extends React.Component {
       });
       throw e;
     }
+  }
   };
 
   handleTextInput = e => {
@@ -121,7 +123,7 @@ class SignupForm extends React.Component {
               onChange={this.handleTextInput}
               value={this.state.password}
             />
-
+            {errorMessage}
             <button>Sign Up!</button>
           </form>
         </div>
