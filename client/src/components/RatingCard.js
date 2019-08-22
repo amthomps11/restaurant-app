@@ -34,12 +34,26 @@ class RatingCard extends Component {
 
     await addRestaurant(this.props.userId, restObj);
   };
-  
 
   render() {
     const ratingColor = {
       backgroundColor: `#${this.props.ratingColor}`
+    };
+
+    let ratingData;
+    console.log(this.props.yelpData);
+    console.log(this.props.foursquareData);
+    if (this.props.yelpData && this.props.foursquareData) {
+      ratingData = (
+        (this.props.yelpData + this.props.foursquareData) /
+        2
+      ).toFixed(2);
+    } else if (this.props.yelpData && !this.props.foursquareData) {
+      ratingData = this.props.yelpData;
+    } else {
+      ratingData = this.props.foursquareData;
     }
+
     return (
       <div className="ratingcard">
         <React.Fragment>
@@ -52,10 +66,7 @@ class RatingCard extends Component {
               />
               <div className="ratingandheader">
                 <div className="ratingCircle" style={ratingColor}>
-                  {(
-                    (this.props.yelpData + this.props.foursquareData) /
-                    2
-                  ).toFixed(1)}
+                  {ratingData}
                 </div>
                 <div>
                   <h1 className="restaurantName">{data.venue.name}</h1>
