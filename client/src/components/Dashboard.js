@@ -18,7 +18,6 @@ class Dashboard extends React.Component {
     const faves = await showFaves();
     const faveIds = faves.map(fave => fave.id);
     this.setState({ faves, faveIds });
-    
   };
 
   handleDelete = async id => {
@@ -60,7 +59,7 @@ class Dashboard extends React.Component {
                   className="like-button"
                   name={id}
                 >
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times" />
                 </button>
               </div>
             </React.Fragment>
@@ -74,8 +73,12 @@ class Dashboard extends React.Component {
 
     return (
       <React.Fragment>
-        <h1 className ="dashboard-greeting">{user.name ? `${user.name}'s Favorites` : null}</h1>
-        <div className="dashboard-container">{this.props.user ? this.renderFaves() : false}</div>
+        <h1 className="dashboard-greeting">
+          {user.name ? `${user.name}'s Favorites` : null}
+        </h1>
+        <div className="dashboard-container">
+          {this.props.user ? this.renderFaves() : false}
+        </div>
       </React.Fragment>
     );
   }
