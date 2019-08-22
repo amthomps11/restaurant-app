@@ -48,7 +48,7 @@ class MyNavbar extends React.Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            {isSignedIn && <Nav.Link href="/dashboard">Dashboard</Nav.Link>}
+            {isSignedIn && <Nav.Link href="/dashboard">Favorites</Nav.Link>}
 
             {!isSignedIn ? (
               <Nav>
