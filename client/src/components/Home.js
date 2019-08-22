@@ -7,7 +7,8 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: "",
+      input1: "",
+      input2: "new york",
       foursquareData: 0,
       yelpData: 0,
       review: "",
@@ -20,17 +21,27 @@ class Home extends React.Component {
 
   handleChange = event => {
     this.setState({
-      input: event.target.value
+      input1: event.target.value
+
     });
   };
+  handleCity = event => {
+    this.setState({
+      input2: event.target.value
+    })
+  }
 
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
     await axios
       .get(
-        `https://api.foursquare.com/v2/venues/search?client_id=M035A0FSW0AS3E4PXOP5MLJIVDKX2SZFEJJSK3D3MLAZUXFA&client_secret=1Q40YKC1KVZHT3XMNHJP0UYQYQKYUVYNEIQTOPLSG4DMTRJT&v=20190819&near=new york&intent=browse&radius=10000&query=${
-          this.state.input
+
+
+        `https://api.foursquare.com/v2/venues/search?client_id=M035A0FSW0AS3E4PXOP5MLJIVDKX2SZFEJJSK3D3MLAZUXFA&client_secret=1Q40YKC1KVZHT3XMNHJP0UYQYQKYUVYNEIQTOPLSG4DMTRJT&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${
+     
+          this.state.input1
+
         }&limit=1`
       )
       .then(async res => {
@@ -51,9 +62,7 @@ class Home extends React.Component {
           });
       });
 
-    const URL = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${
-      this.state.input
-    }&location=new york&limit=1`;
+    const URL = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
     await axios
       .get(URL, {
         params: {},
@@ -85,6 +94,7 @@ class Home extends React.Component {
         <SearchBar
           handleChange={this.handleChange}
           handleSearch={this.handleSearch}
+          handleCity={this.handleCity}
         />
 
         <RatingCard

@@ -4,22 +4,37 @@ class SearchBar extends Component {
   constructor() {
     super();
   }
-  // handleSearch = (event) => {
-  //     event.preventDefault();
-  //     this.props.handleSearch()
-  // }
+  handleSearch = (event) => {
+      event.preventDefault();
+      this.props.handleSearch()
+    
+  }
   handleChange = event => {
     event.preventDefault();
     this.props.handleChange(event);
   };
+  handleCity = event => {
+    event.preventDefault();
+    this.props.handleCity(event);
+  }
+  
 
   render() {
     return (
       <form className="search" onSubmit={this.props.handleSearch}>
+       <label>Venue</label>
         <input
+          placeholder='venue'
           className="search-bar"
           type="text"
           onChange={this.handleChange}
+        />
+        <label>City</label>
+         <input
+          placeholder='city'
+          className="search-bar"
+          type="text"
+          onChange={this.handleCity}
         />
         <button className="search-button" type="submit">
           <i class="fas fa-search" />
