@@ -19,19 +19,27 @@ class RatingCard extends Component {
     console.log(this.props.cardData);
     const restObj = {
       name: this.props.cardData[0].venue.name,
+
       rating: parseInt(
-        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
+        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(2)
       ),
+
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
         this.props.cardData[0].venue.bestPhoto.suffix
-      }`
+      }`,
+      Summary: this.props.cardData[0].venue.tips.groups[0].items[0].text,
+      link: this.props.cardData[0].venue.url
     };
 
     await addRestaurant(this.props.userId, restObj);
   };
+  
 
   render() {
+    const ratingColor = {
+      backgroundColor: `#${this.props.ratingColor}`
+    }
     return (
       <div className="ratingcard">
         <React.Fragment>
@@ -43,7 +51,7 @@ class RatingCard extends Component {
                 }`}
               />
               <div className="ratingandheader">
-                <div className="ratingCircle">
+                <div className="ratingCircle" style={ratingColor}>
                   {(
                     (this.props.yelpData + this.props.foursquareData) /
                     2

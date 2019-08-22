@@ -6,7 +6,9 @@ import "../App.css";
 //Components
 import Home from "../components/Home";
 import Dashboard from "../components/Dashboard";
-import Login from "../components/LoginForm";
+import LoginForm from "../components/LoginForm";
+import MyNavBar from "../components/Navbar";
+
 import Protectedroute from "../components/Protectedroute";
 import SignupForm from "../components/SignupForm";
 
@@ -41,6 +43,8 @@ class Auth extends React.Component {
   loginUser = async credentials => {
     try {
       const user = await login(credentials);
+      localStorage.setItem("userID", user.id);
+      console.log(user);
       this.setState(state => {
         return {
           isSignedIn: true,
@@ -55,6 +59,8 @@ class Auth extends React.Component {
   signUpUser = async credentials => {
     try {
       const user = await signUp(credentials);
+      localStorage.setItem("userID", user.id);
+
       this.setState(state => {
         return {
           isSignedIn: true,
@@ -68,7 +74,7 @@ class Auth extends React.Component {
 
   signOutUser = () => {
     authService.signOut();
-
+    localStorage.clear();
     this.setState(state => {
       return { isSignedIn: false, user: {} };
     });
@@ -78,6 +84,8 @@ class Auth extends React.Component {
     const { isSignedIn, user } = this.state;
     return (
       <div className="app-container">
+        <MyNavBar isSignedIn={isSignedIn} />
+
         <Route
           exact
           path="/"
@@ -88,13 +96,12 @@ class Auth extends React.Component {
           path={`/dashboard/`}
           component={Dashboard}
           user={user}
-          venues={user.venues}
         />
 
         <Route
           path="/login"
           render={props => (
-            <Login
+            <LoginForm
               {...props}
               handleLogin={this.loginUser}
               isSignedIn={isSignedIn}
