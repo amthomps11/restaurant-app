@@ -23,20 +23,19 @@ class Dashboard extends React.Component {
   };
 
   handleDelete = async id => {
-    console.log(this.props);
     const { faves } = this.state;
-    return faves.filter(async fave => {
+    faves.forEach(async fave => {
       if (fave.id === id) {
-        faves.splice(faves.indexOf(fave.id), 1);
+        faves.splice(faves.indexOf(fave), 1);
         this.setState({ faves });
+
         await unFavorite(id);
       }
     });
   };
-x
+
 
   renderFaves = () => {
-    console.log(this.state.user);
     if (this.state.faves.length) {
       return this.state.faves.map(faves => {
         const { name, URL, number, rating, Summary, link, id } = faves;
