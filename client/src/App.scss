@@ -85,29 +85,55 @@ body {
   margin: 0;
   margin-bottom: 50px;
   margin-top: 50px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+ 
 
-  .search-bar {
+  .venue-search{
     min-width: 400px;
     height: 40px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
     border: none;
     padding: 15px;
-    
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     font-weight: 500;
     transition: .3s;
     &:focus {
       outline: 1px;
-      border: solid 2px #808dff;
-      border-right: none;
+      border: solid 1px #808dff;
     }
   }
+  .location-search {
+    min-width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: .3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    &:focus {
+      outline: 1px;
+      border: solid 1px #808dff;
+    }
+  }
+  
   .search-button {
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
+    margin-left: 10px;
     background-color: rgb(84, 84, 209);
     border: none;
     color: white;
-    min-width: 40px;
+    min-width: 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: .15s;
+&:active {
+  box-shadow: 0;
+  background-color: rgb(67, 67, 163);;
+}
+    &:focus {
+      outline: none;
+ 
+    }
   }
 }
 
@@ -222,6 +248,14 @@ img {
       height: 40px;
       font-weight: 500;
       margin-top: 10px;
+      &:active {
+        box-shadow: 0;
+        background-color: rgb(67, 67, 163);;
+      }
+          &:focus {
+            outline: none;
+       
+          }
     }
   }
 }
@@ -244,10 +278,8 @@ img {
     margin-bottom: 10px;
     transition: all 0.15s ease-in-out;
     &:hover {
-      box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
-      &:after {
-        transition: opacity 1s ease-in-out;
-      }
+      
+
     }
   }
   .link-button {
@@ -256,6 +288,13 @@ img {
     height: 40px;
     background-color: #808dff;
     border-color: #808dff27;
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+      box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
+    }
   }
   .like-button {
     border-radius: 50%;
@@ -263,6 +302,13 @@ img {
     height: 40px;
     background-color: rgba(255, 0, 0, 0.507);
     border-color: rgba(255, 0, 0, 0);
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      outline: none;
+      box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
+    }
   }
 }
 
@@ -376,6 +422,14 @@ img {
       height: 40px;
       font-weight: 500;
       margin-top: 10px;
+      &:active {
+        box-shadow: 0;
+        background-color: rgb(67, 67, 163);;
+      }
+          &:focus {
+            outline: none;
+       
+          }
     }
   }
 }

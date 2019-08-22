@@ -77,28 +77,52 @@ body {
   margin: 0;
   margin-bottom: 50px;
   margin-top: 50px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-.search .search-bar {
+.search .venue-search {
   min-width: 400px;
   height: 40px;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 10px;
   border: none;
   padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   font-weight: 500;
   transition: 0.3s;
 }
-.search .search-bar:focus {
+.search .venue-search:focus {
   outline: 1px;
-  border: solid 2px #808dff;
-  border-right: none;
+  border: solid 1px #808dff;
+}
+.search .location-search {
+  min-width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.search .location-search:focus {
+  outline: 1px;
+  border: solid 1px #808dff;
 }
 .search .search-button {
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px;
+  margin-left: 10px;
   background-color: #5454d1;
   border: none;
   color: white;
-  min-width: 40px;
+  min-width: 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.15s;
+}
+.search .search-button:active {
+  box-shadow: 0;
+  background-color: #4343a3;
+}
+.search .search-button:focus {
+  outline: none;
 }
 
 .ratingcard {
@@ -211,6 +235,13 @@ img {
   font-weight: 500;
   margin-top: 10px;
 }
+.login-form form button:active {
+  box-shadow: 0;
+  background-color: #4343a3;
+}
+.login-form form button:focus {
+  outline: none;
+}
 
 .MyNavbar {
   width: 100%;
@@ -230,12 +261,6 @@ img {
   margin-bottom: 10px;
   transition: all 0.15s ease-in-out;
 }
-.button-container button:hover {
-  box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
-}
-.button-container button:hover:after {
-  transition: opacity 1s ease-in-out;
-}
 .button-container .link-button {
   border-radius: 50%;
   width: 40px;
@@ -243,12 +268,26 @@ img {
   background-color: #808dff;
   border-color: #808dff27;
 }
+.button-container .link-button:focus {
+  outline: none;
+}
+.button-container .link-button:active {
+  outline: none;
+  box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
+}
 .button-container .like-button {
   border-radius: 50%;
   width: 40px;
   height: 40px;
   background-color: rgba(255, 0, 0, 0.507);
   border-color: rgba(255, 0, 0, 0);
+}
+.button-container .like-button:focus {
+  outline: none;
+}
+.button-container .like-button:active {
+  outline: none;
+  box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
 }
 
 .signup-container {
@@ -360,6 +399,13 @@ img {
   height: 40px;
   font-weight: 500;
   margin-top: 10px;
+}
+.signup-container .signup-form button:active {
+  box-shadow: 0;
+  background-color: #4343a3;
+}
+.signup-container .signup-form button:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=App.css.map */

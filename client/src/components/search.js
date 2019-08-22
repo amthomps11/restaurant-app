@@ -22,17 +22,15 @@ class SearchBar extends Component {
   render() {
     return (
       <form className="search" onSubmit={this.props.handleSearch}>
-       <label>Venue</label>
         <input
-          placeholder='venue'
-          className="search-bar"
+          placeholder="I'm looking for..."
+          className="venue-search"
           type="text"
           onChange={this.handleChange}
         />
-        <label>City</label>
          <input
-          placeholder='city'
-          className="search-bar"
+          placeholder='New York'
+          className="location-search"
           type="text"
           onChange={this.handleCity}
         />
