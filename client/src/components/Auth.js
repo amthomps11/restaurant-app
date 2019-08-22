@@ -6,7 +6,9 @@ import "../App.css";
 //Components
 import Home from "../components/Home";
 import Dashboard from "../components/Dashboard";
-import Login from "../components/LoginForm";
+import LoginForm from "../components/LoginForm";
+import MyNavBar from "../components/Navbar";
+
 import Protectedroute from "../components/Protectedroute";
 import SignupForm from "../components/SignupForm";
 
@@ -82,6 +84,8 @@ class Auth extends React.Component {
     const { isSignedIn, user } = this.state;
     return (
       <div className="app-container">
+        <MyNavBar isSignedIn={isSignedIn} />
+
         <Route
           exact
           path="/"
@@ -97,7 +101,7 @@ class Auth extends React.Component {
         <Route
           path="/login"
           render={props => (
-            <Login
+            <LoginForm
               {...props}
               handleLogin={this.loginUser}
               isSignedIn={isSignedIn}
@@ -116,7 +120,6 @@ class Auth extends React.Component {
             />
           )}
         />
-        {/* <button onClick={this.signOutUser}>sign out</button> */}
       </div>
     );
   }

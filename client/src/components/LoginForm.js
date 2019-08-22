@@ -50,6 +50,7 @@ class LoginForm extends React.Component {
     }
     if (isSignedIn) {
       console.log(this.props);
+      localStorage.setItem("signedin", "true");
       return (
         <Redirect
           to={{
@@ -61,9 +62,9 @@ class LoginForm extends React.Component {
       // return <Redirect to="/dashboard" />;
     }
     return (
-      <div className='login-form'>
+      <div className="login-form">
         <h1>Login</h1>
-        <hr></hr>
+        <hr />
         <form className="form" onSubmit={this.handleSubmitForm}>
           <div>
             <input
@@ -82,7 +83,7 @@ class LoginForm extends React.Component {
               onChange={this.handleTextInput}
               value={this.state.password}
             />
-                    {errorMessage}
+            {errorMessage}
           </div>
           <button>login</button>
         </form>
