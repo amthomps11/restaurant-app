@@ -8,7 +8,6 @@ class Dashboard extends React.Component {
     this.state = {
       faves: [],
       faveIds: [],
-      delete: false
     };
   }
 
@@ -22,17 +21,16 @@ class Dashboard extends React.Component {
   };
 
   handleDelete = async id => {
-    console.log(this.props);
     const { faves } = this.state;
-    return faves.filter(async fave => {
+    faves.forEach(async fave => {
       if (fave.id === id) {
-        faves.splice(faves.indexOf(fave.id), 1);
-        this.setState({ faves });
+        faves.splice(faves.indexOf(fave), 1);
+        this.setState({ faves }); 
         await unFavorite(id);
       }
     });
   };
-  x;
+
 
   renderFaves = () => {
     if (this.state.faves.length) {
