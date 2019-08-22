@@ -116,7 +116,7 @@ class Auth extends React.Component {
             />
           )}
         />
-        <button onClick={this.signOutUser}>sign out</button>
+        {/* <button onClick={this.signOutUser}>sign out</button> */}
       </div>
     );
   }

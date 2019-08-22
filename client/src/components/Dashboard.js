@@ -63,7 +63,7 @@ x
                   className="like-button"
                   name={id}
                 >
-                  X
+                  <i class="fas fa-times"></i>
                 </button>
               </div>
             </React.Fragment>
@@ -76,10 +76,10 @@ x
     const { user } = this.props;
 
     return (
-      <div>
-        <h1>{user.name ? `${user.name} Favorites` : null}</h1>
-        <div>{this.props.user ? this.renderFaves() : false}</div>
-      </div>
+      <React.Fragment>
+        <h1 className ="dashboard-greeting">{user.name ? `${user.name}'s Favorites` : null}</h1>
+        <div className="dashboard-container">{this.props.user ? this.renderFaves() : false}</div>
+      </React.Fragment>
     );
   }
 }
