@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 
 const MyNavbar = props => {
+  const { isSignedIn, signOutUser } = props;
   return (
     <Navbar
       collapseOnSelect
@@ -15,10 +16,16 @@ const MyNavbar = props => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
-          <Nav.Link href="/dashboard/">Dashboard</Nav.Link>
-          <Nav.Link href="/login">Login</Nav.Link>
-          <Nav.Link href="/signup">Sign up</Nav.Link>
-          <Nav.Link href="/signout" />
+          {isSignedIn && <Nav.Link href="/dashboard">Dashboard</Nav.Link>}
+
+          {!isSignedIn ? (
+            <Nav>
+              <Nav.Link href="/login">Login</Nav.Link>
+              <Nav.Link href="/signup">Sign up</Nav.Link>
+            </Nav>
+          ) : (
+            <Nav.Link onClick={signOutUser}>Logout</Nav.Link>
+          )}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

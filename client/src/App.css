@@ -18,6 +18,9 @@ body {
   flex-direction: column;
   width: 100%;
 }
+.app-container .dashboard-greeting {
+  color: white;
+}
 
 .navbar-light {
   width: 100%;
@@ -47,32 +50,43 @@ body {
   justify-content: center;
   align-items: center;
   color: rgba(255, 255, 255, 0.913);
-  width: 80px;
+  min-width: 80px;
   height: 80px;
   border-radius: 50%;
   font-size: 30px;
   font-weight: bold;
   margin-top: -30px;
+  margin-left: 15px;
   border: white solid 3px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.dashboard-container .ratingcard {
+  margin: 20px;
 }
 
 .search {
   display: flex;
   justify-content: center;
   align-self: center;
-  width: 300px;
+  min-width: 400px;
+  border-radius: 10px;
   margin: 0;
   margin-bottom: 50px;
   margin-top: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 .search .search-bar {
-  min-width: 300px;
+  min-width: 400px;
   height: 40px;
   border-radius: 10px 0px 0px 10px;
   border: none;
-  padding: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 15px;
   font-weight: 500;
+  transition: 0.3s;
 }
 .search .search-bar:focus {
   outline: 1px;
@@ -83,7 +97,6 @@ body {
   border-radius: 0px 10px 10px 0px;
   background-color: #5454d1;
   border: none;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   color: white;
   min-width: 40px;
 }
@@ -105,7 +118,7 @@ body {
   font-size: 22px;
   margin-top: 5px;
   margin-left: 30px;
-  margin-right: 5px;
+  margin-right: 15px;
 }
 .ratingcard .phone-number {
   margin-top: -10px;
@@ -324,10 +337,11 @@ img {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
   height: 40px;
   padding: 8px;
+  transition: 0.3s;
 }
 .signup-container .form-container input:focus {
   outline: 1px;
-  border: solid 2px #808dff;
+  border: solid 1px #808dff;
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 .signup-container .signup-form {

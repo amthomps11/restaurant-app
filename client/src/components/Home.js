@@ -13,7 +13,8 @@ class Home extends React.Component {
       review: "",
       yelpVenueID: "",
       cardData: [],
-      restObj: {}
+      restObj: {},
+      ratingColor: ""
     };
   }
 
@@ -28,9 +29,7 @@ class Home extends React.Component {
     const restObj = {};
     await axios
       .get(
-
         `https://api.foursquare.com/v2/venues/search?client_id=M035A0FSW0AS3E4PXOP5MLJIVDKX2SZFEJJSK3D3MLAZUXFA&client_secret=1Q40YKC1KVZHT3XMNHJP0UYQYQKYUVYNEIQTOPLSG4DMTRJT&v=20190819&near=new york&intent=browse&radius=10000&query=${
-     
           this.state.input
         }&limit=1`
       )
@@ -48,6 +47,7 @@ class Home extends React.Component {
             const foursquareData = res.data.response.venue.rating;
             this.setState({ foursquareData: foursquareData });
             await this.setState({ cardData: [res.data.response] });
+            await this.setState({ ratingColor: res.data.response.venue.ratingColor });
           });
       });
 
@@ -68,38 +68,20 @@ class Home extends React.Component {
         await this.setState({ yelpData: yelpData });
         await this.setState({ yelpVenueID: res.data.businesses[0].id });
       })
-      .then(async res => {
-
-        console.log(res);
-
-        await axios
-          .get(
-            `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/${
-              this.state.yelpVenueID
-            }/reviews`,
-            {
-              params: {},
-              headers: {
-                Authorization:
-                  "Bearer Mfwm2_zb0qrWMcBjiB3Qw6GSIIG38TS-VdjZepk1X9EvQFw9A9fA24dIzoxyi5Xz4YjBnNnOMb0SGWTuzjTLN4lI9ZDZf9_9Mg7tFPyE8mzapp2y8tnEGbvWH6haXXYx"
-              }
-            }
-          )
-          .then(res => {
-            const review = res.data.reviews[0].text;
-            this.setState({ review: review });
-          });
-      });
   };
 
   render() {
     // console.log(this.props)
-    const { yelpData, foursquareData, review, cardData } = this.state;
+    const {
+      yelpData,
+      foursquareData,
+      review,
+      cardData,
+      ratingColor
+    } = this.state;
     // const imgURL = this.state.cardData[0]
     return (
-
       <React.Fragment>
-
         <SearchBar
           handleChange={this.handleChange}
           handleSearch={this.handleSearch}
@@ -110,12 +92,10 @@ class Home extends React.Component {
           foursquareData={foursquareData}
           review={review}
           cardData={cardData}
-
-     
+          ratingColor={ratingColor}
           userId={this.props.user.id}
-          />
+        />
       </React.Fragment>
-
     );
   }
 }
