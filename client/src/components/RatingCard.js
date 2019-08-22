@@ -21,7 +21,7 @@ class RatingCard extends Component {
       name: this.props.cardData[0].venue.name,
 
       rating: parseInt(
-        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(2)
+        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
       ),
 
       number: this.props.cardData[0].venue.contact.formattedPhone,
@@ -47,7 +47,7 @@ class RatingCard extends Component {
       ratingData = (
         (this.props.yelpData + this.props.foursquareData) /
         2
-      ).toFixed(2);
+      ).toFixed(1);
     } else if (this.props.yelpData && !this.props.foursquareData) {
       ratingData = this.props.yelpData;
     } else {
