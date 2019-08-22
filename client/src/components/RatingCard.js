@@ -20,7 +20,7 @@ class RatingCard extends Component {
     const restObj = {
       name: this.props.cardData[0].venue.name,
       rating: parseInt(
-        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
+        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(2)
       ),
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
