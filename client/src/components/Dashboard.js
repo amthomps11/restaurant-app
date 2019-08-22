@@ -26,8 +26,7 @@ class Dashboard extends React.Component {
     faves.forEach(async fave => {
       if (fave.id === id) {
         faves.splice(faves.indexOf(fave), 1);
-        this.setState({ faves });
-
+        this.setState({ faves }); 
         await unFavorite(id);
       }
     });

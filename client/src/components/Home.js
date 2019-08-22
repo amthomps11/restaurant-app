@@ -2,6 +2,10 @@ import React from "react";
 import SearchBar from "./search";
 import axios from "axios";
 import RatingCard from "./RatingCard";
+require("dotenv").config();
+
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET
 
 class Home extends React.Component {
   constructor(props) {
@@ -38,7 +42,7 @@ class Home extends React.Component {
       .get(
 
 
-        `https://api.foursquare.com/v2/venues/search?client_id=M035A0FSW0AS3E4PXOP5MLJIVDKX2SZFEJJSK3D3MLAZUXFA&client_secret=1Q40YKC1KVZHT3XMNHJP0UYQYQKYUVYNEIQTOPLSG4DMTRJT&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${
+        `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${
      
           this.state.input1
 
@@ -52,7 +56,7 @@ class Home extends React.Component {
 
         await axios
           .get(
-            `https://api.foursquare.com/v2/venues/${venueID}?client_id=J0QXDNXQGTX5GLM4PVRZ4RGIDFYUFQCXDXT20RLTGOLEYF3B&client_secret=WWGIIVWEVP3KTINZBGFYXDJ1TEGF4ILVLNF4XOBSCS2SYVZH&v=20190819`
+            `https://api.foursquare.com/v2/venues/${venueID}?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819`
           )
           .then(async res => {
             const foursquareData = res.data.response.venue.rating;
