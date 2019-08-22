@@ -7,7 +7,6 @@ authRouter.post("/signup", async (req, res, next) => {
   passport.authenticate("signup", async (err, user) => {
     try {
       console.log("user from /signup", user);
-
       const { email, id } = user;
       const payload = { email, id };
       const token = jwtSign(payload);
@@ -20,7 +19,6 @@ authRouter.post("/signup", async (req, res, next) => {
 
 // matches '/auth/login' route
 authRouter.post("/login", (req, res, next) => {
-  // res.status(200).json({message: "So far so good!"})
 
   passport.authenticate("login", async (err, user, info) => {
     try {
@@ -37,12 +35,9 @@ authRouter.post("/login", (req, res, next) => {
 
       req.login(user, { session: false }, async error => {
         if (error) return next(error);
-
         const { email, id } = user;
         const payload = { email, id };
         const token = jwtSign(payload);
-
-        // return the user object and token
         return res.json({ user, token });
       });
     } catch (error) {

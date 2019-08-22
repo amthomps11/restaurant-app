@@ -23,7 +23,7 @@ passport.use(
           done(null, false);
         }
       } catch (e) {
-        done(error);
+        done(e);
       }
     }
   )
@@ -38,27 +38,25 @@ passport.use(
     async (email, password, done) => {
       try {
         // find user by their email
-        // console.log(id);
+       
         const user = await User.findOne({
           where: { email: email },
           include: [{ model: Venue, through: "user_venues" }]
         });
-        // console.log(user.id);
-        // console.log(user.email);
-        // console.log(`*** user: ${user} ***`);
+        
         if (!user) {
           return done(null, false, { message: "User not found" });
         }
         // compare passwords
         const validate = await bcrypt.compare(password, user.password);
-        console.log(`*** validate: ${validate} ***`);
+        
         if (!validate) {
           return done(null, false, { message: "Wrong password" });
         }
         // login was a success, return the user object
         return done(null, user, { message: "Logged in successfully" });
-      } catch (error) {
-        return done(error);
+      } catch (e) {
+        return done(e);
       }
     }
   )
@@ -99,7 +97,6 @@ passport.use(
 const authorized = (request, response, next) => {
   passport.authenticate("jwt", { session: false }, async (error, user) => {
     if (error || !user) {
-      // response.status(401).json({ message: 'Unauthorized' });
       let err = new Error("No access allowed");
       err.status = 401;
       return next(err);

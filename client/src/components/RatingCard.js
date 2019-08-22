@@ -19,8 +19,11 @@ class RatingCard extends Component {
     console.log(this.props.cardData);
     const restObj = {
       name: this.props.cardData[0].venue.name,
-      rating: ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1),
-    
+
+      rating: parseInt(
+        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(2)
+      ),
+
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
         this.props.cardData[0].venue.bestPhoto.suffix

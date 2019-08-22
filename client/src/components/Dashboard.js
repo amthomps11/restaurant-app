@@ -7,7 +7,8 @@ class Dashboard extends React.Component {
     super(props);
     this.state = {
       faves: [],
-      faveIds: []
+      faveIds: [],
+      delete: false
     };
   }
 
@@ -18,10 +19,11 @@ class Dashboard extends React.Component {
     const faves = await showFaves();
     const faveIds = faves.map(fave => fave.id);
     this.setState({ faves, faveIds });
+    
   };
 
-  handleFave = async id => {
-    console.log(id);
+  handleDelete = async id => {
+    console.log(this.props);
     const { faves } = this.state;
     return faves.filter(async fave => {
       if (fave.id === id) {
@@ -31,10 +33,10 @@ class Dashboard extends React.Component {
       }
     });
   };
+x
 
   renderFaves = () => {
-    console.log(this.props.user);
-
+    console.log(this.state.user);
     if (this.state.faves.length) {
       return this.state.faves.map(faves => {
         const { name, URL, number, rating, Summary, link, id } = faves;
@@ -57,7 +59,7 @@ class Dashboard extends React.Component {
                   </button>
                 </a>
                 <button
-                  onClick={() => this.handleFave(id)}
+                  onClick={() => this.handleDelete(id)}
                   className="like-button"
                   name={id}
                 >
