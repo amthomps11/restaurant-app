@@ -22,9 +22,9 @@ class RatingCard extends Component {
     const restObj = {
       name: this.props.cardData[0].venue.name,
 
-      rating: parseFloat(
-        ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
-      ),
+      // rating: parseFloat(
+      //   ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
+      // ),
 
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
@@ -43,18 +43,21 @@ class RatingCard extends Component {
     };
 
     let ratingData;
-    console.log(this.props.yelpData);
-    console.log(this.props.foursquareData);
-    if (this.props.yelpData && this.props.foursquareData) {
+    console.log(`this is yelp props: ${this.props.yelpData}`);
+    console.log(`this is foursquare props: ${this.props.foursquareData}`);
+    console.log(`this is mag props: ${this.props.nymagData}`)
+    console.log(`this is infat props: ${this.props.infatData}`)
+    let infatRating = parseFloat(this.props.infatData)
+    let nymagRating = parseFloat(this.props.nymagData)
+    // if (this.props.yelpData && this.props.foursquareData) {
       ratingData = (
-        (this.props.yelpData + this.props.foursquareData) /
-        2
-      ).toFixed(1);
-    } else if (this.props.yelpData && !this.props.foursquareData) {
-      ratingData = this.props.yelpData;
-    } else {
-      ratingData = this.props.foursquareData;
-    }
+      ((infatRating+nymagRating + this.props.yelpData + this.props.foursquareData) /4
+      ).toFixed(1))
+    // } else if (this.props.yelpData && !this.props.foursquareData) {
+    //   ratingData = this.props.yelpData;
+    // } else {
+    //   ratingData = this.props.foursquareData;
+    // }
 
     return (
       <div className="ratingcard">

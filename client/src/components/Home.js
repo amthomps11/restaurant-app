@@ -1,3 +1,5 @@
+import infatData from "../data/infatuation-scrape";
+import nymagData from "../data/ny-mag-scrape";
 import React from "react";
 import SearchBar from "./search";
 import axios from "axios";
@@ -18,6 +20,8 @@ class Home extends React.Component {
       input2: "new york",
       foursquareData: 0,
       yelpData: 0,
+      infatData: 0,
+      nymagData: 0,
       review: "",
       yelpVenueID: "",
       cardData: [],
@@ -30,6 +34,7 @@ class Home extends React.Component {
   handleChange = event => {
     this.setState({
       input1: event.target.value
+      
 
     });
   };
@@ -42,7 +47,30 @@ class Home extends React.Component {
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
-   try {
+    let jsonInput = this.state.input1
+    let foundInfat = infatData.name.find(item => item.name ==  jsonInput);
+    let infatRating = foundInfat.rating
+    if (foundInfat) {
+      this.setState({infatData: infatRating})
+        console.log(`infatuation rating: ${ foundInfat.rating }`)
+      }
+    
+
+    let foundNy = nymagData.name.find(item => item.name ==  jsonInput);
+    
+    let nyMagRating = foundNy.rating / 10
+    if (foundNy) {
+          this.setState({nymagData: nyMagRating})
+          console.log(`Nymag rating: ${this.state.nymagData}`)
+
+        }
+    
+    
+    
+
+
+    try {
+
     
     await axios
       .get(
@@ -51,6 +79,7 @@ class Home extends React.Component {
       .then(async res => {
         restObj.name = res.data.response.venues[0].name;
         const venueID = res.data.response.venues[0].id;
+
     
 
         await axios
@@ -62,7 +91,8 @@ class Home extends React.Component {
             this.setState({ foursquareData: foursquareData });
             await this.setState({ cardData: [res.data.response] });
             await this.setState({ ratingColor: res.data.response.venue.ratingColor });
-            await this.setState({error: false})
+            await this.setState({ error: false })
+
           });
       });
 
@@ -92,10 +122,14 @@ class Home extends React.Component {
     const {
       yelpData,
       foursquareData,
+      nymagData,
+      infatData,
       review,
       cardData,
       ratingColor
     } = this.state;
+
+    
     // const imgURL = this.state.cardData[0]
     return (
       <React.Fragment>
@@ -105,8 +139,12 @@ class Home extends React.Component {
           handleCity={this.handleCity}
         />
         {this.state.error ? (<div className="error">No restaurant found</div>) : (<RatingCard
+          
+          
           yelpData={yelpData}
           foursquareData={foursquareData}
+          infatData={infatData}
+          nymagData={nymagData}
           review={review}
           cardData={cardData}
           ratingColor={ratingColor}
