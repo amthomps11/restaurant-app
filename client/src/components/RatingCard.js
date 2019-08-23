@@ -16,11 +16,13 @@ class RatingCard extends Component {
 
   handleFavorite = async e => {
     e.preventDefault();
-    console.log(this.props.cardData);
+    // console.log(this.props.cardData);
+    console.log(this.props.yelpData);
+    console.log(this.props.foursquareData);
     const restObj = {
       name: this.props.cardData[0].venue.name,
 
-      rating: parseInt(
+      rating: parseFloat(
         ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
       ),
 
