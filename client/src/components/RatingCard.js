@@ -49,16 +49,32 @@ class RatingCard extends Component {
     console.log(`this is infat props: ${this.props.infatData}`)
     let infatRating = parseFloat(this.props.infatData)
     let nymagRating = parseFloat(this.props.nymagData)
-    // if (this.props.yelpData && this.props.foursquareData) {
-      ratingData = (
-      ((infatRating+nymagRating + this.props.yelpData + this.props.foursquareData) /4
-      ).toFixed(1))
-    // } else if (this.props.yelpData && !this.props.foursquareData) {
-    //   ratingData = this.props.yelpData;
-    // } else {
-    //   ratingData = this.props.foursquareData;
-    // }
-
+    
+    
+    // if (this.props.yelpData && this.props.foursquareData) 
+    
+    let ratingArray = [];
+    ratingArray.push(infatRating)
+    ratingArray.push(nymagRating)
+    if(this.props.yelpData != undefined){
+        ratingArray.push(this.props.yelpData)
+      }
+    if(this.props.foursquareData != undefined){
+        ratingArray.push(this.props.foursquareData)
+      }
+    
+      
+      let result = ratingArray.reduce((a, c) => {
+        if (c !== 0) {
+          a.count++;
+          a.sum += c;
+        }
+        
+        return a;
+      }, {count: 0, sum: 0});
+      if (result.count){ ratingData = result.sum / result.count}
+      console.log(ratingData)
+      console.log(ratingArray)
     return (
       <div className="ratingcard">
         <React.Fragment>
@@ -71,7 +87,7 @@ class RatingCard extends Component {
               />
               <div className="ratingandheader">
                 <div className="ratingCircle" style={ratingColor}>
-                  {ratingData}
+                  {ratingData.toFixed(1)}
                 </div>
                 <div className ="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>

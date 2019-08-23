@@ -49,17 +49,18 @@ class Home extends React.Component {
     const restObj = {};
     let jsonInput = this.state.input1
     let foundInfat = infatData.name.find(item => item.name ==  jsonInput);
-    let infatRating = foundInfat.rating
     if (foundInfat) {
+    let infatRating = foundInfat.rating
+   
       this.setState({infatData: infatRating})
         console.log(`infatuation rating: ${ foundInfat.rating }`)
       }
     
 
     let foundNy = nymagData.name.find(item => item.name ==  jsonInput);
-    
-    let nyMagRating = foundNy.rating / 10
     if (foundNy) {
+    let nyMagRating = foundNy.rating / 10
+  
           this.setState({nymagData: nyMagRating})
           console.log(`Nymag rating: ${this.state.nymagData}`)
 
