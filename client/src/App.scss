@@ -30,7 +30,7 @@ body {
 .navbar-light {
   width: 100%;
   .navbar-brand {
-    color: rgb(84, 84, 209);
+    color: rgb(255, 255, 255);
     font-weight: bold;
   }
   .navbar-toggler-icon {
@@ -42,11 +42,11 @@ body {
   .navbar-nav {
     .nav-link {
       box-shadow: none;
-      color: rgb(84, 84, 209);
+      color: rgb(255, 255, 255);
       font-weight: bold;
 
       &:hover {
-        color: rgb(113, 113, 212);
+        color: rgb(195, 200, 255);
       }
     }
   }
@@ -198,6 +198,7 @@ img {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
+  // min-height: 350px;
   max-width: 100%;
   min-width: 40%;
   padding: 20px;
@@ -264,6 +265,14 @@ img {
   width: 100%;
 }
 
+.half-background {
+  width: 100%;
+  height: 26%;
+  background-color: rgb(67, 67, 163);
+  position: absolute;
+  z-index: -1;
+}
+
 .button-container {
   display: flex;
   justify-content: space-evenly;
@@ -277,10 +286,6 @@ img {
     margin-top: -10px;
     margin-bottom: 10px;
     transition: all 0.15s ease-in-out;
-    &:hover {
-      
-
-    }
   }
   .link-button {
     border-radius: 50%;
@@ -316,7 +321,6 @@ img {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-  min-width: 00px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 
