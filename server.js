@@ -27,7 +27,8 @@ app.use(
 );
 app.use(bodyParser.json());
 // Static hosting for built files
-app.use(express.static(path.join(__dirname, "./client/build")));
+
+app.use(express.static(path.join(__dirname, './client/build')));
 
 app.use("/auth", authRouter);
 
@@ -94,10 +95,9 @@ app.get("/dashboard/:user_id/favorites", async (req, res) => {
   }
 });
 
+
 if (process.env.NODE_ENV == "production") {
-  app.use("*", (req, res) =>
-    res.sendFile(path.join(__dirname, "./client/build", "index.html"))
-  );
+  app.use('*', (req, res) => res.sendFile(path.join(__dirname, './client/build', "index.html")));
 }
 
 app.listen(PORT, () =>

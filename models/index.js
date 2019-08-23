@@ -3,10 +3,18 @@ const UserModel = require("./user");
 const VenueModel = require("./venue");
 const bcrypt = require("bcrypt");
 
+if(process.env.NODE_ENV === 'production') { 
+  const db = new Sequelize(process.env.DATABASE_URL , {
+    dialect: "postgres"
+  })
+}
+else{
 const db = new Sequelize({
   database: "rest_db",
   dialect: "postgres"
 });
+}
+
 
 const User = UserModel(db, Sequelize);
 

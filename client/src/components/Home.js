@@ -66,9 +66,9 @@ class Home extends React.Component {
           });
       });
 
-    const URL = `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
+    const URL = `https://desolate-everglades-25408.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
     await axios
-      .get(URL, {
+      .get(URL, { 
         params: {},
         headers: {
           Authorization:
