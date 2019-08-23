@@ -68,7 +68,7 @@ class RatingCard extends Component {
                 <div className="ratingCircle" style={ratingColor}>
                   {ratingData}
                 </div>
-                <div>
+                <div className ="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>
                   <p className="phone-number">
                     {data.venue.contact.formattedPhone}

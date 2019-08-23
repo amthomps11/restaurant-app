@@ -54,13 +54,15 @@ class SignupForm extends React.Component {
     const { showError } = this.state;
 
     let errorMessage;
-    if (showError) {
-      errorMessage = (
-        <div className="errorMessage">
-          <span> An error Occured, please try again</span>
-        </div>
-      );
-    }
+    errorMessage = showError ? (
+      <div className="errorMessage">
+        <span> An error Occurred, please try again</span>
+      </div>
+    ) : (
+      <div className="hidden-errorMessage">
+        <span>An error Occurred, please try again</span>
+      </div>
+    );
     if (isSignedIn) {
       return <Redirect to="/dashboard" />;
     }

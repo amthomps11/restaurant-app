@@ -41,13 +41,16 @@ class LoginForm extends React.Component {
     const { isSignedIn } = this.props;
     const { showError } = this.state;
     let errorMessage;
-    if (showError) {
-      errorMessage = (
-        <div className="errorMessage">
-          <span> An error Occured, please try again</span>
-        </div>
-      );
-    }
+    errorMessage = showError ? (
+      <div className="errorMessage">
+        <span> An error Occurred, please try again</span>
+      </div>
+    ) : (
+      <div className="hidden-errorMessage">
+        <span> You shouldn't see this</span>
+      </div>
+    );
+
     if (isSignedIn) {
       console.log(this.props);
       localStorage.setItem("signedin", "true");
@@ -85,8 +88,11 @@ class LoginForm extends React.Component {
             />
             {errorMessage}
           </div>
-          <button>login</button>
+          <button>Login</button>
         </form>
+        <a className="new-user" href="/signup">
+          New here? Create an account.
+        </a>
       </div>
     );
   }

@@ -21,17 +21,22 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
+  flex-shrink: 0;
   .dashboard-greeting {
     color: white;
-
   }
 }
 
 .navbar-light {
-  width: 100%;
+  width: 110%;
   .navbar-brand {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-size: 23px;
+    margin-right: 4px;
+    &:hover {
+      color: rgb(195, 200, 255);
+    }
   }
   .navbar-toggler-icon {
     outline: none;
@@ -44,6 +49,7 @@ body {
       box-shadow: none;
       color: rgb(255, 255, 255);
       font-weight: bold;
+      font-size: 18px;
 
       &:hover {
         color: rgb(195, 200, 255);
@@ -85,9 +91,8 @@ body {
   margin: 0;
   margin-bottom: 50px;
   margin-top: 50px;
- 
 
-  .venue-search{
+  .venue-search {
     min-width: 400px;
     height: 40px;
     border-radius: 10px;
@@ -95,7 +100,7 @@ body {
     padding: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     font-weight: 500;
-    transition: .3s;
+    transition: 0.3s;
     &:focus {
       outline: 1px;
       border: solid 1px #808dff;
@@ -109,14 +114,14 @@ body {
     padding: 15px;
     margin-left: 15px;
     font-weight: 500;
-    transition: .3s;
+    transition: 0.3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     &:focus {
       outline: 1px;
       border: solid 1px #808dff;
     }
   }
-  
+
   .search-button {
     border-radius: 10px;
     margin-left: 10px;
@@ -125,14 +130,13 @@ body {
     color: white;
     min-width: 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transition: .15s;
-&:active {
-  box-shadow: 0;
-  background-color: rgb(67, 67, 163);;
-}
+    transition: 0.15s;
+    &:active {
+      box-shadow: 0;
+      background-color: rgb(67, 67, 163);
+    }
     &:focus {
       outline: none;
- 
     }
   }
 }
@@ -149,6 +153,7 @@ body {
   margin-top: 0px;
   background-color: white;
 
+
   h1 {
     font-weight: 700;
     font-size: 22px;
@@ -161,6 +166,7 @@ body {
     margin-top: -10px;
     margin-left: 30px;
     font-size: 15px;
+    margin-right: 15px;
     color: grey;
   }
 
@@ -172,7 +178,6 @@ body {
     margin-left: 15px;
     margin-right: 15px;
   }
-}
 
 img {
   width: 100%;
@@ -183,10 +188,16 @@ img {
   border-top-right-radius: 10px;
   margin-top: -10px;
 }
+}
+
 
 .ratingandheader {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
+  width:100%;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 .app-container {
   display: flex;
@@ -198,7 +209,9 @@ img {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  // min-height: 350px;
+  justify-content: center;
+
+  min-height: 366px;
   max-width: 100%;
   min-width: 40%;
   padding: 20px;
@@ -239,6 +252,11 @@ img {
       color: rgba(255, 0, 0, 0.603);
       font-weight: 500;
     }
+    .hidden-errorMessage{
+      color: rgba(255, 255, 255, 0);
+      font-size: 15px;
+      font-weight: 500;
+    }
 
     button {
       width: 100%;
@@ -251,13 +269,19 @@ img {
       margin-top: 10px;
       &:active {
         box-shadow: 0;
-        background-color: rgb(67, 67, 163);;
+        background-color: rgb(67, 67, 163);
       }
-          &:focus {
-            outline: none;
-       
-          }
+      &:focus {
+        outline: none;
+      }
     }
+  }
+  .new-user {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(84, 84, 209);
+    font-weight: 500;
   }
 }
 
@@ -267,10 +291,11 @@ img {
 
 .half-background {
   width: 100%;
-  height: 26%;
+  height: 30%;
   background-color: rgb(67, 67, 163);
   position: absolute;
   z-index: -1;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .button-container {
@@ -285,9 +310,12 @@ img {
     height: 40px;
     margin-top: -10px;
     margin-bottom: 10px;
-    transition: all 0.15s ease-in-out;
+    transition: all 0.10s ease-in-out;
   }
   .link-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -295,13 +323,18 @@ img {
     border-color: #808dff27;
     &:focus {
       outline: none;
+      background-color: rgb(84, 84, 209);
     }
     &:active {
       outline: none;
       box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
+      font-size: 20px;
     }
   }
   .like-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -309,14 +342,20 @@ img {
     border-color: rgba(255, 0, 0, 0);
     &:focus {
       outline: none;
+      background-color: red;
+  
     }
     &:active {
       outline: none;
       box-shadow: inset 0 1px 15px rgba(0, 0, 0, 0.3);
+      font-size: 20px;
+
     }
   }
 }
-
+.errorMessage {
+  color: red;
+}
 .signup-container {
   display: flex;
   flex-direction: row;
@@ -402,12 +441,24 @@ img {
       box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
       height: 40px;
       padding: 8px;
-      transition: .3s;
+      transition: 0.3s;
       &:focus {
         outline: 1px;
         border: solid 1px #808dff;
         box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.08);
       }
+    }
+    .errorMessage {
+      margin-top: -5px;
+      font-size: 15px;
+      color: rgba(255, 0, 0, 0.603);
+      font-weight: 500;
+    }
+    .hidden-errorMessage{
+      margin-top: -5px;
+      color: rgba(255, 255, 255, 0);
+      font-size: 15px;
+      font-weight: 500;
     }
   }
   .signup-form {
@@ -425,15 +476,14 @@ img {
       background-color: rgb(84, 84, 209);
       height: 40px;
       font-weight: 500;
-      margin-top: 10px;
+      margin-top: 5px;
       &:active {
         box-shadow: 0;
-        background-color: rgb(67, 67, 163);;
+        background-color: rgb(67, 67, 163);
       }
-          &:focus {
-            outline: none;
-       
-          }
+      &:focus {
+        outline: none;
+      }
     }
   }
 }
