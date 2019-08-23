@@ -5,6 +5,8 @@ import { login, getProfile, signUp } from "../services/apiService";
 import authService from "../services/authService";
 import { router } from "react-router";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import mainLogo from '../venue-logo.png';
+
 
 class MyNavbar extends React.Component {
   constructor(props) {
@@ -43,7 +45,16 @@ class MyNavbar extends React.Component {
         bg="navbar-light bg-transparent "
         variant="light"
       >
-        <Navbar.Brand>Resturaunt App</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img
+            src={mainLogo}
+            alt=""
+            width="80"
+            height="80"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
+        <Navbar.Brand>Venu</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
