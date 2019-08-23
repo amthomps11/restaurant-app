@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { addRestaurant } from "../services/apiService";
+import infatData from "../data/infatuation-scrape";
+import nymagData from "../data/ny-mag-scrape";
 
 class RatingCard extends Component {
   constructor(props) {
@@ -43,8 +45,6 @@ class RatingCard extends Component {
     };
 
     let ratingData;
-    console.log(this.props.yelpData);
-    console.log(this.props.foursquareData);
     if (this.props.yelpData && this.props.foursquareData) {
       ratingData = (
         (this.props.yelpData + this.props.foursquareData) /
@@ -70,7 +70,7 @@ class RatingCard extends Component {
                 <div className="ratingCircle" style={ratingColor}>
                   {ratingData}
                 </div>
-                <div className ="venue-name-container">
+                <div className="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>
                   <p className="phone-number">
                     {data.venue.contact.formattedPhone}
