@@ -1,0 +1,5069 @@
+{
+ "name": [
+  {
+   "name": "Blue Hill at Stone Barns",
+   "rating": "99",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-hill-at-stone-barns/"
+  },
+  {
+   "name": "Le Bernardin",
+   "rating": "99",
+   "rating_url": "http://nymag.com/listings/restaurant/le-bernardin/"
+  },
+  {
+   "name": "Eleven Madison Park",
+   "rating": "95",
+   "rating_url": "http://nymag.com/listings/restaurant/eleven-madison-park/"
+  },
+  {
+   "name": "Gramercy Tavern",
+   "rating": "93",
+   "rating_url": "http://nymag.com/listings/restaurant/gramercy-tavern/"
+  },
+  {
+   "name": "I Sodi",
+   "rating": "93",
+   "rating_url": "http://nymag.com/listings/restaurant/i-sodi/"
+  },
+  {
+   "name": "Blue Hill",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-hill/"
+  },
+  {
+   "name": "Buvette",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/buvette/"
+  },
+  {
+   "name": "Chez Ma Tante",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/chez-ma-tante/"
+  },
+  {
+   "name": "Olmsted",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/olmsted/"
+  },
+  {
+   "name": "Superiority Burger",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/superiority-burger/"
+  },
+  {
+   "name": "Ugly Baby",
+   "rating": "92",
+   "rating_url": "http://nymag.com/listings/restaurant/ugly-baby/"
+  },
+  {
+   "name": "Carbone",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/carbone/"
+  },
+  {
+   "name": "Chef’s Table at Brooklyn Fare",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/chefs-table-at-brooklyn-fare/"
+  },
+  {
+   "name": "Dead Rabbit",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/bar/dead-rabbit/"
+  },
+  {
+   "name": "Decoy",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/decoy/"
+  },
+  {
+   "name": "Hao Noodle and Tea",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/hao-noodle-and-tea/"
+  },
+  {
+   "name": "King",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/king/"
+  },
+  {
+   "name": "Té Company",
+   "rating": "91",
+   "rating_url": "http://nymag.com/listings/restaurant/te-company/"
+  },
+  {
+   "name": "Atomix",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/atomix/"
+  },
+  {
+   "name": "Bar Goto",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/bar/bar-goto/"
+  },
+  {
+   "name": "Clover Club",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/bar/clover-club/"
+  },
+  {
+   "name": "Death & Co.",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/bar/death-and-co/"
+  },
+  {
+   "name": "Di Fara Pizza",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/di-fara-pizza/"
+  },
+  {
+   "name": "Ivan Ramen",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/ivan-ramen/"
+  },
+  {
+   "name": "J.G. Melon",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/j-g-melon/"
+  },
+  {
+   "name": "Katz’s Delicatessen",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/katzs-delicatessen/"
+  },
+  {
+   "name": "Marea",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/marea/"
+  },
+  {
+   "name": "Pearl Oyster Bar",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/pearl-oyster-bar/"
+  },
+  {
+   "name": "Reynard",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/reynard/"
+  },
+  {
+   "name": "Shopsin’s",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/shopsins/"
+  },
+  {
+   "name": "Sunny’s",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/bar/sunnys/"
+  },
+  {
+   "name": "Tanoreen",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/tanoreen/"
+  },
+  {
+   "name": "Via Carota",
+   "rating": "90",
+   "rating_url": "http://nymag.com/listings/restaurant/via-carota/"
+  },
+  {
+   "name": "Atla",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/atla/"
+  },
+  {
+   "name": "Atoboy",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/atoboy/"
+  },
+  {
+   "name": "Dutch Kills",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/bar/dutch-kills/"
+  },
+  {
+   "name": "Ho Foods",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/ho-foods/"
+  },
+  {
+   "name": "Joe’s Pizza",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/joes-pizza/"
+  },
+  {
+   "name": "Roberta’s",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/robertas/"
+  },
+  {
+   "name": "Shake Shack",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/shake-shack/"
+  },
+  {
+   "name": "Aska",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/aska/"
+  },
+  {
+   "name": "Atera",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/atera/"
+  },
+  {
+   "name": "Cosme",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/cosme/"
+  },
+  {
+   "name": "Ear Inn",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/bar/ear-inn/"
+  },
+  {
+   "name": "Estela",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/estela/"
+  },
+  {
+   "name": "Le Coucou",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/le-coucou/"
+  },
+  {
+   "name": "Llama Inn",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/llama-inn/"
+  },
+  {
+   "name": "Marie’s Crisis Café",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/bar/maries-crisis-cafe/"
+  },
+  {
+   "name": "Momofuku Ko",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/momofuku-ko/"
+  },
+  {
+   "name": "Momofuku Noodle Bar",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/momofuku-noodle-bar/"
+  },
+  {
+   "name": "Pasquale Jones",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/pasquale-jones/"
+  },
+  {
+   "name": "Pouring Ribbons",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/bar/pouring-ribbons/"
+  },
+  {
+   "name": "Sushi Noz",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-noz/"
+  },
+  {
+   "name": "The NoMad Bar",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/the-nomad-bar/"
+  },
+  {
+   "name": "Vic’s",
+   "rating": "89",
+   "rating_url": "http://nymag.com/listings/restaurant/vics/"
+  },
+  {
+   "name": "Bep Ga",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/bep-ga/"
+  },
+  {
+   "name": "El Quinto Pino",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/el-quinto-pino/"
+  },
+  {
+   "name": "Ribalta",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/ribalta/"
+  },
+  {
+   "name": "Sripraphai",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/sripraphai/"
+  },
+  {
+   "name": "Yakitori Totto",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/yakitori-totto/"
+  },
+  {
+   "name": "Attaboy",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/attaboy/"
+  },
+  {
+   "name": "Burp Castle",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/burp-castle/"
+  },
+  {
+   "name": "Café Altro Paradiso",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-altro-paradiso/"
+  },
+  {
+   "name": "Cervo’s",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/cervos/"
+  },
+  {
+   "name": "Club Macanudo",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/club-macanudo/"
+  },
+  {
+   "name": "Danji",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/danji/"
+  },
+  {
+   "name": "Del Posto",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/del-posto/"
+  },
+  {
+   "name": "Dumpling Galaxy",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/dumpling-galaxy/"
+  },
+  {
+   "name": "Employees Only",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/employees-only/"
+  },
+  {
+   "name": "Ichimura at Uchū",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/ichimura-at-uchu/"
+  },
+  {
+   "name": "Kajitsu",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/kajitsu/"
+  },
+  {
+   "name": "Little Pepper",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/little-pepper/"
+  },
+  {
+   "name": "Marani",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/marani/"
+  },
+  {
+   "name": "Mother of Pearl",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/mother-of-pearl/"
+  },
+  {
+   "name": "Nitecap",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/nitecap/"
+  },
+  {
+   "name": "Porter House Bar and Grill",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/porter-house-bar-and-grill/"
+  },
+  {
+   "name": "Russ & Daughters Café",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/russ-and-daughters-cafe/"
+  },
+  {
+   "name": "Saint Vitus",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/saint-vitus/"
+  },
+  {
+   "name": "Scarr’s Pizza",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/scarrs-pizza/"
+  },
+  {
+   "name": "Wildair",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/wildair/"
+  },
+  {
+   "name": "Angel’s Share",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/bar/angels-share/"
+  },
+  {
+   "name": "Daniel",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/daniel/"
+  },
+  {
+   "name": "Okonomi",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/okonomi/"
+  },
+  {
+   "name": "The City Bakery",
+   "rating": "88",
+   "rating_url": "http://nymag.com/listings/restaurant/the-city-bakery/"
+  },
+  {
+   "name": "Amor y Amargo",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/bar/amor-y-amargo/"
+  },
+  {
+   "name": "Aquavit",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/aquavit/"
+  },
+  {
+   "name": "Arcade Bakery",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/arcade-bakery/"
+  },
+  {
+   "name": "Bobwhite Lunch & Supper Counter",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/bobwhite-lunch-and-supper-counter/"
+  },
+  {
+   "name": "Bâtard",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/batard/"
+  },
+  {
+   "name": "Cote",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/cote/"
+  },
+  {
+   "name": "Frenchette",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/frenchette/"
+  },
+  {
+   "name": "Llamita",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/llamita/"
+  },
+  {
+   "name": "Long Island Bar",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/long-island-bar/"
+  },
+  {
+   "name": "Racines",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/racines/"
+  },
+  {
+   "name": "Saint Julivert Fisherie",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/saint-julivert-fisherie/"
+  },
+  {
+   "name": "St. Anselm",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/st-anselm/"
+  },
+  {
+   "name": "Sushi Satsuki",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-satsuki/"
+  },
+  {
+   "name": "The Standard Grill",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/the-standard-grill/"
+  },
+  {
+   "name": "Totonno’s Pizzeria Napolitana",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/totonnos-pizzeria-napolitana/"
+  },
+  {
+   "name": "Wallsé",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/wallse/"
+  },
+  {
+   "name": "ABC Kitchen",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/abc-kitchen/"
+  },
+  {
+   "name": "Barney Greengrass",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/barney-greengrass/"
+  },
+  {
+   "name": "Benno",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/benno/"
+  },
+  {
+   "name": "Breads Bakery",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/breads-bakery/"
+  },
+  {
+   "name": "Brooklyn Brewery",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/bar/brooklyn-brewery/"
+  },
+  {
+   "name": "Café Boulud",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-boulud/"
+  },
+  {
+   "name": "Cagen",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/cagen/"
+  },
+  {
+   "name": "Calle Ocho",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/calle-ocho/"
+  },
+  {
+   "name": "Fausto",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/fausto/"
+  },
+  {
+   "name": "Frankies 457 Spuntino",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/frankies-457-spuntino/"
+  },
+  {
+   "name": "Gotham Bar and Grill",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/gotham-bar-and-grill/"
+  },
+  {
+   "name": "Hao Noodle Chelsea",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/hao-noodle-chelsea/"
+  },
+  {
+   "name": "JeJu Noodle Bar",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/jeju-noodle-bar/"
+  },
+  {
+   "name": "Momofuku Ssäm Bar",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/momofuku-ssam-bar/"
+  },
+  {
+   "name": "Noda",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/noda/"
+  },
+  {
+   "name": "Shabu Shabu Macoron",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/shabu-shabu-macoron/"
+  },
+  {
+   "name": "Sushi Yasuda",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-yasuda/"
+  },
+  {
+   "name": "Sylvia’s",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/sylvias/"
+  },
+  {
+   "name": "The Grill",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/the-grill/"
+  },
+  {
+   "name": "The NoMad",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/the-nomad/"
+  },
+  {
+   "name": "Casa Enrique",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/casa-enrique/"
+  },
+  {
+   "name": "Flora Bar",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/flora-bar/"
+  },
+  {
+   "name": "Great Northern Food Hall",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/great-northern-food-hall/"
+  },
+  {
+   "name": "Paulie Gee’s",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/paulie-gees/"
+  },
+  {
+   "name": "Peasant",
+   "rating": "87",
+   "rating_url": "http://nymag.com/listings/restaurant/peasant/"
+  },
+  {
+   "name": "Craft",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/craft/"
+  },
+  {
+   "name": "Crown Shy",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/crown-shy/"
+  },
+  {
+   "name": "Dynaco",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/bar/dynaco/"
+  },
+  {
+   "name": "Emmy Squared",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/emmy-squared/"
+  },
+  {
+   "name": "Empellón al Pastor",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/empellon-al-pastor/"
+  },
+  {
+   "name": "Fresh Kills",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/bar/fresh-kills/"
+  },
+  {
+   "name": "Hart’s",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/harts/"
+  },
+  {
+   "name": "Hometown Bar-B-Que",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/hometown-bar-b-que/"
+  },
+  {
+   "name": "Locanda Verde",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/locanda-verde/"
+  },
+  {
+   "name": "Lucali",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/lucali/"
+  },
+  {
+   "name": "Madcap Cafe",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/madcap-cafe/"
+  },
+  {
+   "name": "Takashi",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/takashi/"
+  },
+  {
+   "name": "The Modern",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/the-modern/"
+  },
+  {
+   "name": "Win Son",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/win-son/"
+  },
+  {
+   "name": "Ba Xuyên",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/ba-xuyen/"
+  },
+  {
+   "name": "Bien Cuit Bakery",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/bien-cuit-bakery/"
+  },
+  {
+   "name": "Caffe Reggio",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/caffe-reggio/"
+  },
+  {
+   "name": "Casa Adela",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/casa-adela/"
+  },
+  {
+   "name": "Contra",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/contra/"
+  },
+  {
+   "name": "Dominique Ansel Kitchen",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/dominique-ansel-kitchen/"
+  },
+  {
+   "name": "Gabriel Kreuther",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/gabriel-kreuther/"
+  },
+  {
+   "name": "Gem",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/gem/"
+  },
+  {
+   "name": "Grand Army",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/grand-army/"
+  },
+  {
+   "name": "Hunan Slurp",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/hunan-slurp/"
+  },
+  {
+   "name": "Joe & Pat’s",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/joe-and-pats/"
+  },
+  {
+   "name": "Mace",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/bar/mace/"
+  },
+  {
+   "name": "MáLà Project",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/mala-project/"
+  },
+  {
+   "name": "Nakamura",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/nakamura/"
+  },
+  {
+   "name": "Oxomoco",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/oxomoco/"
+  },
+  {
+   "name": "Prince Street Pizza",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/prince-street-pizza/"
+  },
+  {
+   "name": "Shoji at 69 Leonard",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/shoji-at-69-leonard/"
+  },
+  {
+   "name": "The Cannibal",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/the-cannibal/"
+  },
+  {
+   "name": "The Little Owl",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/the-little-owl/"
+  },
+  {
+   "name": "Upland",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/upland/"
+  },
+  {
+   "name": "Brooklyn Bowl",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/bar/brooklyn-bowl/"
+  },
+  {
+   "name": "Lilia",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/lilia/"
+  },
+  {
+   "name": "Shuko",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/shuko/"
+  },
+  {
+   "name": "Torishin",
+   "rating": "86",
+   "rating_url": "http://nymag.com/listings/restaurant/torishin/"
+  },
+  {
+   "name": "Ayada",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/ayada/"
+  },
+  {
+   "name": "Boulud Sud",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/boulud-sud/"
+  },
+  {
+   "name": "Bowery Meat Company",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/bowery-meat-company/"
+  },
+  {
+   "name": "Daily Provisions",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/daily-provisions/"
+  },
+  {
+   "name": "Ginger’s",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/gingers/"
+  },
+  {
+   "name": "Greenpoint Fish & Lobster Co.",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/greenpoint-fish-and-lobster-co/"
+  },
+  {
+   "name": "Hanjan",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/hanjan/"
+  },
+  {
+   "name": "High Street on Hudson",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/high-street-on-hudson/"
+  },
+  {
+   "name": "Hwa Yuan",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/hwa-yuan/"
+  },
+  {
+   "name": "Patsy’s Pizzeria",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/patsys-pizzeria/"
+  },
+  {
+   "name": "Rao’s Restaurant",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/raos-restaurant/"
+  },
+  {
+   "name": "Spuyten Duyvil",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/spuyten-duyvil/"
+  },
+  {
+   "name": "Sushi Amane",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-amane/"
+  },
+  {
+   "name": "The Commodore",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/the-commodore/"
+  },
+  {
+   "name": "The Four Horsemen",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/the-four-horsemen/"
+  },
+  {
+   "name": "The Odeon",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/the-odeon/"
+  },
+  {
+   "name": "Aldea",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/aldea/"
+  },
+  {
+   "name": "Barano",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/barano/"
+  },
+  {
+   "name": "Birdbath Bakery",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/birdbath-bakery/"
+  },
+  {
+   "name": "Café Sabarsky",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-sabarsky/"
+  },
+  {
+   "name": "ChikaLicious",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/chikalicious/"
+  },
+  {
+   "name": "Dominique Ansel Bakery",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/dominique-ansel-bakery/"
+  },
+  {
+   "name": "Fanelli’s Cafe",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/fanellis-cafe/"
+  },
+  {
+   "name": "Flaming Saddles",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/flaming-saddles/"
+  },
+  {
+   "name": "Hibino",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/hibino/"
+  },
+  {
+   "name": "Kang Ho Dong Baekjeong",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/kang-ho-dong-baekjeong/"
+  },
+  {
+   "name": "La Grenouille",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/la-grenouille/"
+  },
+  {
+   "name": "Minetta Tavern",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/minetta-tavern/"
+  },
+  {
+   "name": "Peter Pan Donut and Pastry Shop",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/peter-pan-donut-and-pastry-shop/"
+  },
+  {
+   "name": "Russian Vodka Room",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/russian-vodka-room/"
+  },
+  {
+   "name": "Sofreh",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/sofreh/"
+  },
+  {
+   "name": "Sushi Nakazawa",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-nakazawa/"
+  },
+  {
+   "name": "Szechuan Gourmet",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/szechuan-gourmet/"
+  },
+  {
+   "name": "Terroir Tribeca",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/terroir-tribeca/"
+  },
+  {
+   "name": "The Bar Downstairs",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/the-bar-downstairs/"
+  },
+  {
+   "name": "Tørst",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/torst/"
+  },
+  {
+   "name": "Adda",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/adda/"
+  },
+  {
+   "name": "Alidoro",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/alidoro/"
+  },
+  {
+   "name": "Bar SixtyFive",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/bar-sixtyfive/"
+  },
+  {
+   "name": "Blanca",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/blanca/"
+  },
+  {
+   "name": "Empellón",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/empellon/"
+  },
+  {
+   "name": "Four & Twenty Blackbirds",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/four-and-twenty-blackbirds/"
+  },
+  {
+   "name": "Guan Fu",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/guan-fu/"
+  },
+  {
+   "name": "Houseman",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/houseman/"
+  },
+  {
+   "name": "Jean-Georges",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/jean-georges/"
+  },
+  {
+   "name": "Jimmy’s Corner",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/jimmys-corner/"
+  },
+  {
+   "name": "Kiin Thai Eatery",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/kiin-thai-eatery/"
+  },
+  {
+   "name": "Mu Ramen",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/mu-ramen/"
+  },
+  {
+   "name": "Prune",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/prune/"
+  },
+  {
+   "name": "Raoul’s",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/raouls/"
+  },
+  {
+   "name": "Sake Bar Decibel",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/sake-bar-decibel/"
+  },
+  {
+   "name": "Sunday in Brooklyn",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/sunday-in-brooklyn/"
+  },
+  {
+   "name": "The Campbell",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/the-campbell/"
+  },
+  {
+   "name": "Tortas Neza",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/tortas-neza/"
+  },
+  {
+   "name": "Ushiwakamaru",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/ushiwakamaru/"
+  },
+  {
+   "name": "Xi’an Famous Foods",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/xian-famous-foods/"
+  },
+  {
+   "name": "15 East",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/15-east/"
+  },
+  {
+   "name": "Bemelmans Bar",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/bemelmans-bar/"
+  },
+  {
+   "name": "Coco Pazzo",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/coco-pazzo/"
+  },
+  {
+   "name": "Court Street Grocers",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/court-street-grocers/"
+  },
+  {
+   "name": "E.A.K. Ramen",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/e-a-k-ramen/"
+  },
+  {
+   "name": "Grindhaus",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/grindhaus/"
+  },
+  {
+   "name": "Kiki’s",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/kikis/"
+  },
+  {
+   "name": "Moti Mahal Delux",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/restaurant/moti-mahal-delux/"
+  },
+  {
+   "name": "Super Power",
+   "rating": "85",
+   "rating_url": "http://nymag.com/listings/bar/super-power/"
+  },
+  {
+   "name": "Bar Moga",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/bar-moga/"
+  },
+  {
+   "name": "Bāng Bar",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/bang-bar/"
+  },
+  {
+   "name": "Diamond Reef",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/diamond-reef/"
+  },
+  {
+   "name": "El Cortez",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/el-cortez/"
+  },
+  {
+   "name": "Grand Banks",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/grand-banks/"
+  },
+  {
+   "name": "Little Branch",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/little-branch/"
+  },
+  {
+   "name": "Middle Branch",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/middle-branch/"
+  },
+  {
+   "name": "Mimi’s Hummus",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/mimis-hummus/"
+  },
+  {
+   "name": "Ops",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/ops/"
+  },
+  {
+   "name": "Oxalis",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/oxalis/"
+  },
+  {
+   "name": "The Penrose",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/the-penrose/"
+  },
+  {
+   "name": "Brooklyn Cider House",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/brooklyn-cider-house/"
+  },
+  {
+   "name": "Cafe Cluny",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-cluny/"
+  },
+  {
+   "name": "Celestine",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/celestine/"
+  },
+  {
+   "name": "East Wind Snack Shop",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/east-wind-snack-shop/"
+  },
+  {
+   "name": "Eisenberg’s Sandwich Shop",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/eisenbergs-sandwich-shop/"
+  },
+  {
+   "name": "Enoteca on Court",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/enoteca-on-court/"
+  },
+  {
+   "name": "Existing Conditions",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/existing-conditions/"
+  },
+  {
+   "name": "Falansai",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/falansai/"
+  },
+  {
+   "name": "Frankel’s Delicatessen & Appetizing",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/frankels-delicatessen-and-appetizing/"
+  },
+  {
+   "name": "Great N.Y. Noodletown",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/great-n-y-noodletown/"
+  },
+  {
+   "name": "Hatsuhana",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/hatsuhana/"
+  },
+  {
+   "name": "Junoon",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/junoon/"
+  },
+  {
+   "name": "Little Park",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/little-park/"
+  },
+  {
+   "name": "Lucy’s Vietnamese Kitchen",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/lucys-vietnamese-kitchen/"
+  },
+  {
+   "name": "Maialino",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/maialino/"
+  },
+  {
+   "name": "Manducatis",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/manducatis/"
+  },
+  {
+   "name": "Mary’s Fish Camp",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/marys-fish-camp/"
+  },
+  {
+   "name": "Mission Chinese Food",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/mission-chinese-food/"
+  },
+  {
+   "name": "Night of Joy",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/night-of-joy/"
+  },
+  {
+   "name": "Proletariat",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/proletariat/"
+  },
+  {
+   "name": "BlackTail",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/blacktail/"
+  },
+  {
+   "name": "Brandy Library",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/brandy-library/"
+  },
+  {
+   "name": "Do or Dive",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/do-or-dive/"
+  },
+  {
+   "name": "Empellón Taqueria",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/empellon-taqueria/"
+  },
+  {
+   "name": "Gibson + Luce",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/gibson-luce/"
+  },
+  {
+   "name": "Lhasa Fast Food",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/lhasa-fast-food/"
+  },
+  {
+   "name": "Nix",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/nix/"
+  },
+  {
+   "name": "P.J. Clarke’s",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/p-j-clarkes/"
+  },
+  {
+   "name": "Pizza Moto",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/pizza-moto/"
+  },
+  {
+   "name": "Roman’s",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/romans/"
+  },
+  {
+   "name": "Santina",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/santina/"
+  },
+  {
+   "name": "Sushi Ginza Onodera",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-ginza-onodera/"
+  },
+  {
+   "name": "Sweetgreen",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/sweetgreen/"
+  },
+  {
+   "name": "Tanoshi Sushi",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/tanoshi-sushi/"
+  },
+  {
+   "name": "The Dutch",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/the-dutch/"
+  },
+  {
+   "name": "The Good Fork",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/the-good-fork/"
+  },
+  {
+   "name": "The Musket Room",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/the-musket-room/"
+  },
+  {
+   "name": "The Smile",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/the-smile/"
+  },
+  {
+   "name": "Tortilleria Mexicana Los Hermanos",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/tortilleria-mexicana-los-hermanos/"
+  },
+  {
+   "name": "Vini e Fritti",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/vini-e-fritti/"
+  },
+  {
+   "name": "Baz Bagel & Restaurant",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/baz-bagel-and-restaurant/"
+  },
+  {
+   "name": "Bohemian Hall & Beer Garden",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/bohemian-hall-and-beer-garden/"
+  },
+  {
+   "name": "Defonte’s",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/defontes/"
+  },
+  {
+   "name": "Dirt Candy",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/dirt-candy/"
+  },
+  {
+   "name": "Hotel Delmano",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/hotel-delmano/"
+  },
+  {
+   "name": "Little Tong",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/little-tong/"
+  },
+  {
+   "name": "Porsena",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/porsena/"
+  },
+  {
+   "name": "Pyramid Club",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/pyramid-club/"
+  },
+  {
+   "name": "Raines Law Room",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/bar/raines-law-room/"
+  },
+  {
+   "name": "Sparks Steak House",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/sparks-steak-house/"
+  },
+  {
+   "name": "Vinegar Hill House",
+   "rating": "84",
+   "rating_url": "http://nymag.com/listings/restaurant/vinegar-hill-house/"
+  },
+  {
+   "name": "Balthazar",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/balthazar/"
+  },
+  {
+   "name": "Bunker",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/bunker/"
+  },
+  {
+   "name": "Daddy-O",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/daddy-o/"
+  },
+  {
+   "name": "Di An Di",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/di-an-di/"
+  },
+  {
+   "name": "Han Dynasty",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/han-dynasty/"
+  },
+  {
+   "name": "HanGawi",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/hangawi/"
+  },
+  {
+   "name": "Kura",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/kura/"
+  },
+  {
+   "name": "Runner & Stone",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/runner-and-stone/"
+  },
+  {
+   "name": "The Islands",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/the-islands/"
+  },
+  {
+   "name": "2nd Avenue Deli",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/2nd-avenue-deli/"
+  },
+  {
+   "name": "Astoria Seafood",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/astoria-seafood/"
+  },
+  {
+   "name": "Bar Primi",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/bar-primi/"
+  },
+  {
+   "name": "Bondurants",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/bondurants/"
+  },
+  {
+   "name": "Don Antonio by Starita",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/don-antonio-by-starita/"
+  },
+  {
+   "name": "Faro",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/faro/"
+  },
+  {
+   "name": "Favela Grill",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/favela-grill/"
+  },
+  {
+   "name": "Fedora",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/fedora/"
+  },
+  {
+   "name": "Ferdinando’s Focacceria",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/ferdinandos-focacceria/"
+  },
+  {
+   "name": "Imperial Palace",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/imperial-palace/"
+  },
+  {
+   "name": "John Brown Smokehouse",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/john-brown-smokehouse/"
+  },
+  {
+   "name": "Miss Mamie’s Spoonbread Too",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/miss-mamies-spoonbread-too/"
+  },
+  {
+   "name": "Modern Love",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/modern-love/"
+  },
+  {
+   "name": "Nowadays",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/nowadays/"
+  },
+  {
+   "name": "O Ya",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/o-ya/"
+  },
+  {
+   "name": "Quality Eats",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/quality-eats/"
+  },
+  {
+   "name": "Sid Gold’s Request Room",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/sid-golds-request-room/"
+  },
+  {
+   "name": "Sushi Zo",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-zo/"
+  },
+  {
+   "name": "The Drift",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/the-drift/"
+  },
+  {
+   "name": "The Mercer Kitchen",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/the-mercer-kitchen/"
+  },
+  {
+   "name": "Bar Boulud",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/bar-boulud/"
+  },
+  {
+   "name": "Blind Tiger Ale House",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/blind-tiger-ale-house/"
+  },
+  {
+   "name": "Cheeky Sandwiches",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/cheeky-sandwiches/"
+  },
+  {
+   "name": "Davelle",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/davelle/"
+  },
+  {
+   "name": "Ferris",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/ferris/"
+  },
+  {
+   "name": "Forgtmenot",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/forgtmenot/"
+  },
+  {
+   "name": "Gaia Italian Café",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/gaia-italian-cafe/"
+  },
+  {
+   "name": "Golden Shopping Mall",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/golden-shopping-mall/"
+  },
+  {
+   "name": "Grand Sichuan House",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/grand-sichuan-house/"
+  },
+  {
+   "name": "Hanoi House",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/hanoi-house/"
+  },
+  {
+   "name": "Joseph Leonard",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/joseph-leonard/"
+  },
+  {
+   "name": "Los Tacos No. 1",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/los-tacos-no-1/"
+  },
+  {
+   "name": "Marshall Stack",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/marshall-stack/"
+  },
+  {
+   "name": "Nyonya",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/nyonya/"
+  },
+  {
+   "name": "Old Town Bar & Restaurant",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/old-town-bar-and-restaurant/"
+  },
+  {
+   "name": "Pho Grand",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/pho-grand/"
+  },
+  {
+   "name": "Sushi Katsuei",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-katsuei/"
+  },
+  {
+   "name": "Sushi of Gari",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-of-gari/"
+  },
+  {
+   "name": "The Finch",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/the-finch/"
+  },
+  {
+   "name": "The Rum House",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/the-rum-house/"
+  },
+  {
+   "name": "Alta Calidad",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/alta-calidad/"
+  },
+  {
+   "name": "Bar Pitti",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/bar-pitti/"
+  },
+  {
+   "name": "Blue Ribbon Brasserie",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-ribbon-brasserie/"
+  },
+  {
+   "name": "Botanica",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/botanica/"
+  },
+  {
+   "name": "Café China",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-china/"
+  },
+  {
+   "name": "Café Luxembourg",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-luxembourg/"
+  },
+  {
+   "name": "Donna",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/donna/"
+  },
+  {
+   "name": "Du’s Donuts",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/dus-donuts/"
+  },
+  {
+   "name": "Hakkasan",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/hakkasan/"
+  },
+  {
+   "name": "Nougatine",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/nougatine/"
+  },
+  {
+   "name": "Taïm",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/taim/"
+  },
+  {
+   "name": "Terraza 7",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/bar/terraza-7/"
+  },
+  {
+   "name": "Wolfgang’s Steakhouse",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/wolfgangs-steakhouse/"
+  },
+  {
+   "name": "abcV",
+   "rating": "83",
+   "rating_url": "http://nymag.com/listings/restaurant/abcv/"
+  },
+  {
+   "name": "Chuko",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/chuko/"
+  },
+  {
+   "name": "Dimes",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/dimes/"
+  },
+  {
+   "name": "Hunky Dory",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/hunky-dory/"
+  },
+  {
+   "name": "Khao Kang",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/khao-kang/"
+  },
+  {
+   "name": "The Food Sermon",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/the-food-sermon/"
+  },
+  {
+   "name": "Uncle Boons",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/uncle-boons/"
+  },
+  {
+   "name": "Arepa Lady",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/arepa-lady/"
+  },
+  {
+   "name": "Blue Ribbon Downing Street Bar",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-ribbon-downing-street-bar/"
+  },
+  {
+   "name": "Casa Pública",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/casa-publica/"
+  },
+  {
+   "name": "Corner Bistro",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/corner-bistro/"
+  },
+  {
+   "name": "Dough",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/dough/"
+  },
+  {
+   "name": "Doughnut Plant",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/doughnut-plant/"
+  },
+  {
+   "name": "EN Japanese Brasserie",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/en-japanese-brasserie/"
+  },
+  {
+   "name": "Fonda",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/fonda/"
+  },
+  {
+   "name": "Frankies 570 Spuntino",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/frankies-570-spuntino/"
+  },
+  {
+   "name": "Freek’s Mill",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/freeks-mill/"
+  },
+  {
+   "name": "Gray’s Papaya",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/grays-papaya/"
+  },
+  {
+   "name": "Huertas",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/huertas/"
+  },
+  {
+   "name": "Juliana’s Pizza",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/julianas-pizza/"
+  },
+  {
+   "name": "L&B Spumoni Gardens",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/l-and-b-spumoni-gardens/"
+  },
+  {
+   "name": "Market Table",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/market-table/"
+  },
+  {
+   "name": "Meadowsweet",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/meadowsweet/"
+  },
+  {
+   "name": "Mikkeller",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/mikkeller/"
+  },
+  {
+   "name": "Pig and Khao",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/pig-and-khao/"
+  },
+  {
+   "name": "Rubirosa",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/rubirosa/"
+  },
+  {
+   "name": "Vaucluse",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/vaucluse/"
+  },
+  {
+   "name": "C&B Cafe",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/c-and-b-cafe/"
+  },
+  {
+   "name": "Caveat",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/caveat/"
+  },
+  {
+   "name": "Charlie Bird",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/charlie-bird/"
+  },
+  {
+   "name": "Cubbyhole",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/cubbyhole/"
+  },
+  {
+   "name": "C’mon Everybody",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/cmon-everybody/"
+  },
+  {
+   "name": "Diner",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/diner/"
+  },
+  {
+   "name": "El Castillo de Jagua",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/el-castillo-de-jagua/"
+  },
+  {
+   "name": "Elio’s",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/elios/"
+  },
+  {
+   "name": "Fette Sau",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/fette-sau/"
+  },
+  {
+   "name": "Ganesh Temple Canteen",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/ganesh-temple-canteen/"
+  },
+  {
+   "name": "Lao Cheng Du",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/lao-cheng-du/"
+  },
+  {
+   "name": "Mani in Pasta",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/mani-in-pasta/"
+  },
+  {
+   "name": "Marlow & Sons",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/marlow-and-sons/"
+  },
+  {
+   "name": "Mimi Cheng’s Dumplings",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/mimi-chengs-dumplings/"
+  },
+  {
+   "name": "Motorino",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/motorino/"
+  },
+  {
+   "name": "Parm",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/parm/"
+  },
+  {
+   "name": "Pastrami Queen",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/pastrami-queen/"
+  },
+  {
+   "name": "Réunion Surf Bar",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/reunion-surf-bar/"
+  },
+  {
+   "name": "Tacos Matamoros",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/tacos-matamoros/"
+  },
+  {
+   "name": "The Doughnut Project",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/the-doughnut-project/"
+  },
+  {
+   "name": "As Is",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/as-is/"
+  },
+  {
+   "name": "Bar Sardine",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/bar-sardine/"
+  },
+  {
+   "name": "Buttermilk Channel",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/buttermilk-channel/"
+  },
+  {
+   "name": "Caravaggio",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/caravaggio/"
+  },
+  {
+   "name": "Circa Brewing Co.",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/circa-brewing-co/"
+  },
+  {
+   "name": "Convivium Osteria",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/convivium-osteria/"
+  },
+  {
+   "name": "DB Bistro Moderne",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/db-bistro-moderne/"
+  },
+  {
+   "name": "Duff’s",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/duffs/"
+  },
+  {
+   "name": "Faun",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/faun/"
+  },
+  {
+   "name": "Kings County Imperial",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/kings-county-imperial/"
+  },
+  {
+   "name": "La Vara",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/la-vara/"
+  },
+  {
+   "name": "Made Nice",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/made-nice/"
+  },
+  {
+   "name": "Mah-Ze-Dahr",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/mah-ze-dahr/"
+  },
+  {
+   "name": "Maite",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/maite/"
+  },
+  {
+   "name": "Molyvos",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/molyvos/"
+  },
+  {
+   "name": "Nowhere",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/nowhere/"
+  },
+  {
+   "name": "Rose’s",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/roses/"
+  },
+  {
+   "name": "Sakagura",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/sakagura/"
+  },
+  {
+   "name": "Sugar East",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/bar/sugar-east/"
+  },
+  {
+   "name": "Super Taste Restaurant",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/super-taste-restaurant/"
+  },
+  {
+   "name": "Claro",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/claro/"
+  },
+  {
+   "name": "Donostia",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/donostia/"
+  },
+  {
+   "name": "Han Joo",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/han-joo/"
+  },
+  {
+   "name": "Mitchell’s Soul Food",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/mitchells-soul-food/"
+  },
+  {
+   "name": "N.Y. Dosas",
+   "rating": "82",
+   "rating_url": "http://nymag.com/listings/restaurant/n-y-dosas/"
+  },
+  {
+   "name": "Benoit",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/benoit/"
+  },
+  {
+   "name": "Chao Thai",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/chao-thai/"
+  },
+  {
+   "name": "Glady’s Caribbean",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/gladys-caribbean/"
+  },
+  {
+   "name": "Lavender Lake",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/lavender-lake/"
+  },
+  {
+   "name": "McSorley’s Old Ale House",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/mcsorleys-old-ale-house/"
+  },
+  {
+   "name": "Miss Ada",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/miss-ada/"
+  },
+  {
+   "name": "O:N",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/o-n/"
+  },
+  {
+   "name": "Peaches Hothouse",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/peaches-hothouse/"
+  },
+  {
+   "name": "Pommes Frites",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/pommes-frites/"
+  },
+  {
+   "name": "Raclette",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/raclette/"
+  },
+  {
+   "name": "Spicy Village",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/spicy-village/"
+  },
+  {
+   "name": "TAK Room",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/tak-room/"
+  },
+  {
+   "name": "Zero Otto Nove",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/zero-otto-nove/"
+  },
+  {
+   "name": "Congee Village",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/congee-village/"
+  },
+  {
+   "name": "DeKalb Market Hall",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/dekalb-market-hall/"
+  },
+  {
+   "name": "El Rincon Criollo",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/el-rincon-criollo/"
+  },
+  {
+   "name": "El Tenampa",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/el-tenampa/"
+  },
+  {
+   "name": "Gyu-Kaku",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/gyu-kaku/"
+  },
+  {
+   "name": "Jeffrey’s Grocery",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/jeffreys-grocery/"
+  },
+  {
+   "name": "Jewel Bako",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/jewel-bako/"
+  },
+  {
+   "name": "Jun-Men Ramen Bar",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/jun-men-ramen-bar/"
+  },
+  {
+   "name": "La Mercerie",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/la-mercerie/"
+  },
+  {
+   "name": "Locanda Vini e Olii",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/locanda-vini-e-olii/"
+  },
+  {
+   "name": "Milk Bar",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/milk-bar/"
+  },
+  {
+   "name": "Orsay",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/orsay/"
+  },
+  {
+   "name": "Pho Bang",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/pho-bang/"
+  },
+  {
+   "name": "Quality Meats",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/quality-meats/"
+  },
+  {
+   "name": "Red Rooster",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/red-rooster/"
+  },
+  {
+   "name": "Sullivan Street Bakery",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/sullivan-street-bakery/"
+  },
+  {
+   "name": "The Blind Barber",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/the-blind-barber/"
+  },
+  {
+   "name": "The Simone",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/the-simone/"
+  },
+  {
+   "name": "Tom’s Restaurant",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/toms-restaurant/"
+  },
+  {
+   "name": "west~bourne",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/west-bourne/"
+  },
+  {
+   "name": "Brooklyn Farmacy",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/brooklyn-farmacy/"
+  },
+  {
+   "name": "Café d’Alsace",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-dalsace/"
+  },
+  {
+   "name": "Canal Street Market",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/canal-street-market/"
+  },
+  {
+   "name": "Dear Irving",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/dear-irving/"
+  },
+  {
+   "name": "Et Al",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/et-al/"
+  },
+  {
+   "name": "Frank",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/frank/"
+  },
+  {
+   "name": "Ippudo NY",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/ippudo-ny/"
+  },
+  {
+   "name": "Jin Ramen",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/jin-ramen/"
+  },
+  {
+   "name": "JoJo",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/jojo/"
+  },
+  {
+   "name": "Kabab Cafe",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/kabab-cafe/"
+  },
+  {
+   "name": "Keens Steakhouse",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/keens-steakhouse/"
+  },
+  {
+   "name": "Kopitiam",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/kopitiam/"
+  },
+  {
+   "name": "Mile End",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/mile-end/"
+  },
+  {
+   "name": "Mokbar",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/mokbar/"
+  },
+  {
+   "name": "Momofuku Nishi",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/momofuku-nishi/"
+  },
+  {
+   "name": "Peking Duck House",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/peking-duck-house/"
+  },
+  {
+   "name": "Speedy Romeo",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/speedy-romeo/"
+  },
+  {
+   "name": "The Mermaid Inn",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/the-mermaid-inn/"
+  },
+  {
+   "name": "Threes Brewing",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/bar/threes-brewing/"
+  },
+  {
+   "name": "Tim Ho Wan",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/tim-ho-wan/"
+  },
+  {
+   "name": "Carmine’s",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/carmines/"
+  },
+  {
+   "name": "Colonie",
+   "rating": "81",
+   "rating_url": "http://nymag.com/listings/restaurant/colonie/"
+  },
+  {
+   "name": "Bessou",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/bessou/"
+  },
+  {
+   "name": "Café Kashkar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-kashkar/"
+  },
+  {
+   "name": "Celeste",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/celeste/"
+  },
+  {
+   "name": "Famous Sammy’s Roumanian Steakhouse",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/famous-sammys-roumanian-steakhouse/"
+  },
+  {
+   "name": "Holiday Cocktail Lounge",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/holiday-cocktail-lounge/"
+  },
+  {
+   "name": "Jeepney",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/jeepney/"
+  },
+  {
+   "name": "Josie’s Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/josies-bar/"
+  },
+  {
+   "name": "Lafayette",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/lafayette/"
+  },
+  {
+   "name": "Mimi",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/mimi/"
+  },
+  {
+   "name": "Pies ‘n’ Thighs",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/pies-n-thighs/"
+  },
+  {
+   "name": "Porchlight",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/porchlight/"
+  },
+  {
+   "name": "Rye House",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/rye-house/"
+  },
+  {
+   "name": "Shelsky’s Smoked Fish",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/shelskys-smoked-fish/"
+  },
+  {
+   "name": "Somtum Der",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/somtum-der/"
+  },
+  {
+   "name": "Teresa’s",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/teresas/"
+  },
+  {
+   "name": "Toloache Taqueria",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/toloache-taqueria/"
+  },
+  {
+   "name": "Babbo",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/babbo/"
+  },
+  {
+   "name": "Black Seed Bagels",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/black-seed-bagels/"
+  },
+  {
+   "name": "Bombay Bread Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/bombay-bread-bar/"
+  },
+  {
+   "name": "Gallow Green",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/gallow-green/"
+  },
+  {
+   "name": "Gennaro",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/gennaro/"
+  },
+  {
+   "name": "Grand Sichuan Eastern",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/grand-sichuan-eastern/"
+  },
+  {
+   "name": "Hearth",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/hearth/"
+  },
+  {
+   "name": "Her Name Is Han",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/her-name-is-han/"
+  },
+  {
+   "name": "Le Coq Rico",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/le-coq-rico/"
+  },
+  {
+   "name": "Lot 2",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/lot-2/"
+  },
+  {
+   "name": "Mona’s",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/monas/"
+  },
+  {
+   "name": "Mother’s Ruin",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/mothers-ruin/"
+  },
+  {
+   "name": "Nathan’s Famous",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/nathans-famous/"
+  },
+  {
+   "name": "Nica Trattoria",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/nica-trattoria/"
+  },
+  {
+   "name": "Peppa’s Jerk Chicken Restaurant",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/peppas-jerk-chicken-restaurant/"
+  },
+  {
+   "name": "Sushi Azabu",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/sushi-azabu/"
+  },
+  {
+   "name": "Taco Mix",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/taco-mix/"
+  },
+  {
+   "name": "Untitled",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/untitled/"
+  },
+  {
+   "name": "Yiasou",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/yiasou/"
+  },
+  {
+   "name": "the otheroom",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-otheroom/"
+  },
+  {
+   "name": "Birds of a Feather",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/birds-of-a-feather/"
+  },
+  {
+   "name": "Blue Ribbon Sushi Bar & Grill",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-ribbon-sushi-bar-and-grill/"
+  },
+  {
+   "name": "Burger Joint",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/burger-joint/"
+  },
+  {
+   "name": "Cha-An",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/cha-an/"
+  },
+  {
+   "name": "Cocoron",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/cocoron/"
+  },
+  {
+   "name": "Crif Dogs",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/crif-dogs/"
+  },
+  {
+   "name": "Gotham West Market",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/gotham-west-market/"
+  },
+  {
+   "name": "Grandaisy",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/grandaisy/"
+  },
+  {
+   "name": "Jungsik",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/jungsik/"
+  },
+  {
+   "name": "Kyo Ya",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/kyo-ya/"
+  },
+  {
+   "name": "Lolo’s Seafood Shack",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/lolos-seafood-shack/"
+  },
+  {
+   "name": "Madre Mezcaleria",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/madre-mezcaleria/"
+  },
+  {
+   "name": "Noorman’s Kil",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/noormans-kil/"
+  },
+  {
+   "name": "Papaya King",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/papaya-king/"
+  },
+  {
+   "name": "Sarge’s Delicatessen & Diner",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/sarges-delicatessen-and-diner/"
+  },
+  {
+   "name": "The Beatrice Inn",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/the-beatrice-inn/"
+  },
+  {
+   "name": "The Polo Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/the-polo-bar/"
+  },
+  {
+   "name": "The River Café",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/the-river-cafe/"
+  },
+  {
+   "name": "The Wayland",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-wayland/"
+  },
+  {
+   "name": "Victor’s Café",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/victors-cafe/"
+  },
+  {
+   "name": "Chilo’s",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/chilos/"
+  },
+  {
+   "name": "Eim Khao Mun Kai",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/eim-khao-mun-kai/"
+  },
+  {
+   "name": "Esca",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/esca/"
+  },
+  {
+   "name": "Grand Central Oyster Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/grand-central-oyster-bar/"
+  },
+  {
+   "name": "Le Veau d’Or",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/le-veau-dor/"
+  },
+  {
+   "name": "Marta",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/marta/"
+  },
+  {
+   "name": "Noreetuh",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/noreetuh/"
+  },
+  {
+   "name": "Pearl’s Social and Billy Club",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/pearls-social-and-billy-club/"
+  },
+  {
+   "name": "Red Hook Lobster Pound",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/red-hook-lobster-pound/"
+  },
+  {
+   "name": "Rosa Mexicano",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/rosa-mexicano/"
+  },
+  {
+   "name": "Royal Rib House",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/royal-rib-house/"
+  },
+  {
+   "name": "Smile to Go",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/smile-to-go/"
+  },
+  {
+   "name": "The Pony Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-pony-bar/"
+  },
+  {
+   "name": "Waverly Restaurant",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/waverly-restaurant/"
+  },
+  {
+   "name": "Westlight",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/westlight/"
+  },
+  {
+   "name": "White Bear",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/white-bear/"
+  },
+  {
+   "name": "ZZ’s Clam Bar",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/zzs-clam-bar/"
+  },
+  {
+   "name": "Zyara",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/zyara/"
+  },
+  {
+   "name": "Épicerie Boulud",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/epicerie-boulud/"
+  },
+  {
+   "name": "Auntie Guan’s Kitchen 108",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/auntie-guans-kitchen-108/"
+  },
+  {
+   "name": "Blue Ribbon Sushi",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/blue-ribbon-sushi/"
+  },
+  {
+   "name": "Emily",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/emily/"
+  },
+  {
+   "name": "Gloria",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/gloria/"
+  },
+  {
+   "name": "Henrietta Hudson",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/henrietta-hudson/"
+  },
+  {
+   "name": "Maysville",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/maysville/"
+  },
+  {
+   "name": "Perry St",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/perry-st/"
+  },
+  {
+   "name": "ROKC",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/rokc/"
+  },
+  {
+   "name": "Sandro’s",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/sandros/"
+  },
+  {
+   "name": "Simon & the Whale",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/simon-and-the-whale/"
+  },
+  {
+   "name": "Syndicated",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/syndicated/"
+  },
+  {
+   "name": "The Brindle Room",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/the-brindle-room/"
+  },
+  {
+   "name": "The Flatiron Room",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-flatiron-room/"
+  },
+  {
+   "name": "The Randolph at Broome",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-randolph-at-broome/"
+  },
+  {
+   "name": "Three Jolly Pigeons",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/three-jolly-pigeons/"
+  },
+  {
+   "name": "Tocqueville",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/tocqueville/"
+  },
+  {
+   "name": "Totto Ramen",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/totto-ramen/"
+  },
+  {
+   "name": "Una Pizza Napoletana",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/una-pizza-napoletana/"
+  },
+  {
+   "name": "Zadie’s Oyster Room",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/zadies-oyster-room/"
+  },
+  {
+   "name": "al di là",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/al-di-la/"
+  },
+  {
+   "name": "Bathtub Gin",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/bathtub-gin/"
+  },
+  {
+   "name": "Brass Monkey",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/brass-monkey/"
+  },
+  {
+   "name": "Brennan & Carr",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/brennan-and-carr/"
+  },
+  {
+   "name": "Café Tibet",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-tibet/"
+  },
+  {
+   "name": "Cheryl’s Global Soul",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/cheryls-global-soul/"
+  },
+  {
+   "name": "Clinton St. Baking Co. & Restaurant",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/clinton-st-baking-co-and-restaurant/"
+  },
+  {
+   "name": "David’s Brisket House",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/davids-brisket-house/"
+  },
+  {
+   "name": "Distilled",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/distilled/"
+  },
+  {
+   "name": "Don Peppe",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/don-peppe/"
+  },
+  {
+   "name": "Eataly",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/eataly/"
+  },
+  {
+   "name": "Gato",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/gato/"
+  },
+  {
+   "name": "Hudson Malone",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/hudson-malone/"
+  },
+  {
+   "name": "Liebman’s Delicatessen",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/liebmans-delicatessen/"
+  },
+  {
+   "name": "M. Wells Steakhouse",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/m-wells-steakhouse/"
+  },
+  {
+   "name": "Nur",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/nur/"
+  },
+  {
+   "name": "Oiji",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/oiji/"
+  },
+  {
+   "name": "Pete’s Candy Store",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/petes-candy-store/"
+  },
+  {
+   "name": "Pondicheri",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/pondicheri/"
+  },
+  {
+   "name": "Yun Nan Flavour Garden",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/yun-nan-flavour-garden/"
+  },
+  {
+   "name": "egg",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/egg/"
+  },
+  {
+   "name": "Black Rabbit",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/black-rabbit/"
+  },
+  {
+   "name": "Brooklyn Winery",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/brooklyn-winery/"
+  },
+  {
+   "name": "Claudette",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/claudette/"
+  },
+  {
+   "name": "Colonia Verde",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/colonia-verde/"
+  },
+  {
+   "name": "Dinosaur Bar-B-Que",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/dinosaur-bar-b-que/"
+  },
+  {
+   "name": "Edo Japanese Restaurant",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/edo-japanese-restaurant/"
+  },
+  {
+   "name": "Ladybird",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/ladybird/"
+  },
+  {
+   "name": "Lantern’s Keep",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/lanterns-keep/"
+  },
+  {
+   "name": "Nice Matin",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/nice-matin/"
+  },
+  {
+   "name": "PN Wood Fired Pizza",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/pn-wood-fired-pizza/"
+  },
+  {
+   "name": "Per Se",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/per-se/"
+  },
+  {
+   "name": "Rizzo’s Fine Pizza",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/rizzos-fine-pizza/"
+  },
+  {
+   "name": "Sunshine Laundromat",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/sunshine-laundromat/"
+  },
+  {
+   "name": "The Bell House",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-bell-house/"
+  },
+  {
+   "name": "The Brooklyn Inn",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-brooklyn-inn/"
+  },
+  {
+   "name": "The Iris and B. Gerald Cantor Roof Garden",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/the-iris-and-b-gerald-cantor-roof-garden/"
+  },
+  {
+   "name": "Tony Dragon’s Grille",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/tony-dragons-grille/"
+  },
+  {
+   "name": "Tournesol",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/tournesol/"
+  },
+  {
+   "name": "Txikito",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/txikito/"
+  },
+  {
+   "name": "anotheroom",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/bar/anotheroom/"
+  },
+  {
+   "name": "Habana Outpost",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/habana-outpost/"
+  },
+  {
+   "name": "Hakata Tonton",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/hakata-tonton/"
+  },
+  {
+   "name": "La Masseria",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/la-masseria/"
+  },
+  {
+   "name": "RedFarm",
+   "rating": "80",
+   "rating_url": "http://nymag.com/listings/restaurant/redfarm/"
+  },
+  {
+   "name": "Bamonte’s",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/bamontes/"
+  },
+  {
+   "name": "Barbounia",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/barbounia/"
+  },
+  {
+   "name": "Indian Accent",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/indian-accent/"
+  },
+  {
+   "name": "Knitting Factory",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/knitting-factory/"
+  },
+  {
+   "name": "Lucy’s",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/lucys/"
+  },
+  {
+   "name": "Lure Fishbar",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/lure-fishbar/"
+  },
+  {
+   "name": "Manitoba’s",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/manitobas/"
+  },
+  {
+   "name": "Miss Lily’s 7A",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/miss-lilys-7a/"
+  },
+  {
+   "name": "Orso",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/orso/"
+  },
+  {
+   "name": "Pampano",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/pampano/"
+  },
+  {
+   "name": "Sadelle’s",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/sadelles/"
+  },
+  {
+   "name": "Sauvage",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/sauvage/"
+  },
+  {
+   "name": "Sweet Afton",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/sweet-afton/"
+  },
+  {
+   "name": "Vanessa’s Dumpling House",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/vanessas-dumpling-house/"
+  },
+  {
+   "name": "Weather Up Tribeca",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/weather-up-tribeca/"
+  },
+  {
+   "name": "Zucker’s Bagels & Smoked Fish",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/zuckers-bagels-and-smoked-fish/"
+  },
+  {
+   "name": "Chez Napoléon",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/chez-napoleon/"
+  },
+  {
+   "name": "French Louie",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/french-louie/"
+  },
+  {
+   "name": "Hudson Bar and Books",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/hudson-bar-and-books/"
+  },
+  {
+   "name": "Il Buco",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/il-buco/"
+  },
+  {
+   "name": "Loosie Rouge",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/loosie-rouge/"
+  },
+  {
+   "name": "L’Artusi",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/lartusi/"
+  },
+  {
+   "name": "Madame Vo",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/madame-vo/"
+  },
+  {
+   "name": "Misi",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/misi/"
+  },
+  {
+   "name": "Num Pang",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/num-pang/"
+  },
+  {
+   "name": "Sake Bar Hagi 46",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/sake-bar-hagi-46/"
+  },
+  {
+   "name": "Slowly Shirley",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/slowly-shirley/"
+  },
+  {
+   "name": "Supermoon Bakehouse",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/supermoon-bakehouse/"
+  },
+  {
+   "name": "The Meatball Shop",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/the-meatball-shop/"
+  },
+  {
+   "name": "The Pool",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/the-pool/"
+  },
+  {
+   "name": "The West 79th Street Boat Basin Café",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/the-west-79th-street-boat-basin-cafe/"
+  },
+  {
+   "name": "Utsav",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/utsav/"
+  },
+  {
+   "name": "Wafa’s Express",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/wafas-express/"
+  },
+  {
+   "name": "Walter Foods",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/walter-foods/"
+  },
+  {
+   "name": "Wilfie & Nell",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/wilfie-and-nell/"
+  },
+  {
+   "name": "by CHLOE",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/by-chloe/"
+  },
+  {
+   "name": "Apothéke",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/apotheke/"
+  },
+  {
+   "name": "Bonnie’s Grill",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/bonnies-grill/"
+  },
+  {
+   "name": "Cafe Himalaya",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-himalaya/"
+  },
+  {
+   "name": "Café Carlyle",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/cafe-carlyle/"
+  },
+  {
+   "name": "Estiatorio Milos",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/estiatorio-milos/"
+  },
+  {
+   "name": "Greenwood Park",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/greenwood-park/"
+  },
+  {
+   "name": "Hill Country Food Park",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/hill-country-food-park/"
+  },
+  {
+   "name": "Mayfield",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/mayfield/"
+  },
+  {
+   "name": "Morgan’s Barbecue",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/morgans-barbecue/"
+  },
+  {
+   "name": "Moustache",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/moustache/"
+  },
+  {
+   "name": "No. 7 Restaurant",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/no-7-restaurant/"
+  },
+  {
+   "name": "Pig Beach",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/pig-beach/"
+  },
+  {
+   "name": "Rai Rai Ken",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/rai-rai-ken/"
+  },
+  {
+   "name": "Rose Bar",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/rose-bar/"
+  },
+  {
+   "name": "The Breslin Bar and Dining Room",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/the-breslin-bar-and-dining-room/"
+  },
+  {
+   "name": "Top of the Standard",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/top-of-the-standard/"
+  },
+  {
+   "name": "Toro",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/toro/"
+  },
+  {
+   "name": "Two-Bit’s Retro Arcade",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/two-bits-retro-arcade/"
+  },
+  {
+   "name": "Yaso Tangbao",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/yaso-tangbao/"
+  },
+  {
+   "name": "Zum Schneider",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/zum-schneider/"
+  },
+  {
+   "name": "August",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/august/"
+  },
+  {
+   "name": "Dominick’s Restaurant",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/dominicks-restaurant/"
+  },
+  {
+   "name": "East River Bar",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/east-river-bar/"
+  },
+  {
+   "name": "Genuine Liquorette",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/genuine-liquorette/"
+  },
+  {
+   "name": "Grimaldi’s",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/grimaldis/"
+  },
+  {
+   "name": "Ichiran",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/ichiran/"
+  },
+  {
+   "name": "Le Garage",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/le-garage/"
+  },
+  {
+   "name": "Little Saigon Pearl",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/little-saigon-pearl/"
+  },
+  {
+   "name": "Manousheh",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/manousheh/"
+  },
+  {
+   "name": "Mettā",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/metta/"
+  },
+  {
+   "name": "Peri Ela",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/peri-ela/"
+  },
+  {
+   "name": "Sfoglia",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/sfoglia/"
+  },
+  {
+   "name": "The Eagle NYC",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/the-eagle-nyc/"
+  },
+  {
+   "name": "The Magician",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/bar/the-magician/"
+  },
+  {
+   "name": "Wu Liang Ye",
+   "rating": "79",
+   "rating_url": "http://nymag.com/listings/restaurant/wu-liang-ye/"
+  },
+  {
+   "name": "Dante",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/dante/"
+  },
+  {
+   "name": "Leonti",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/leonti/"
+  },
+  {
+   "name": "Shun Lee Palace",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/shun-lee-palace/"
+  },
+  {
+   "name": "Shun Lee West",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/shun-lee-west/"
+  },
+  {
+   "name": "Tender Greens",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/tender-greens/"
+  },
+  {
+   "name": "Casa Mezcal",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/casa-mezcal/"
+  },
+  {
+   "name": "Fast & Fresh Burrito Deli",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/fast-and-fresh-burrito-deli/"
+  },
+  {
+   "name": "Floyd, NY",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/floyd-ny/"
+  },
+  {
+   "name": "Leuca",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/leuca/"
+  },
+  {
+   "name": "Lil’ Frankie’s Pizza",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/lil-frankies-pizza/"
+  },
+  {
+   "name": "Patriot Saloon",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/patriot-saloon/"
+  },
+  {
+   "name": "Rudy’s Bar & Grill",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/rudys-bar-and-grill/"
+  },
+  {
+   "name": "Sea Witch",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/sea-witch/"
+  },
+  {
+   "name": "Smith & Wollensky",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/smith-and-wollensky/"
+  },
+  {
+   "name": "Tacombi at Fonda Nolita",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/tacombi-at-fonda-nolita/"
+  },
+  {
+   "name": "The Bronx Brewery",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/the-bronx-brewery/"
+  },
+  {
+   "name": "The East Pole",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/the-east-pole/"
+  },
+  {
+   "name": "The Fat Radish",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/the-fat-radish/"
+  },
+  {
+   "name": "The Immigrant",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/the-immigrant/"
+  },
+  {
+   "name": "The Waverly Inn",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/the-waverly-inn/"
+  },
+  {
+   "name": "Union Hall",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/union-hall/"
+  },
+  {
+   "name": "Union Square Cafe",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/union-square-cafe/"
+  },
+  {
+   "name": "Walter’s",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/walters/"
+  },
+  {
+   "name": "Zombie Hut",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/zombie-hut/"
+  },
+  {
+   "name": "d.b.a.",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/d-b-a/"
+  },
+  {
+   "name": "4 Charles Prime Rib",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/4-charles-prime-rib/"
+  },
+  {
+   "name": "Bamboo Garden",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/bamboo-garden/"
+  },
+  {
+   "name": "Barcade",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/barcade/"
+  },
+  {
+   "name": "Gowanus Yacht Club",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/gowanus-yacht-club/"
+  },
+  {
+   "name": "Grand Sichuan International",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/grand-sichuan-international/"
+  },
+  {
+   "name": "Leonelli Taberna",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/leonelli-taberna/"
+  },
+  {
+   "name": "Mighty Quinn’s Barbeque",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/mighty-quinns-barbeque/"
+  },
+  {
+   "name": "Mombar",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/mombar/"
+  },
+  {
+   "name": "Montero’s Bar & Grill",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/monteros-bar-and-grill/"
+  },
+  {
+   "name": "Nom Wah Tea Parlor",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/nom-wah-tea-parlor/"
+  },
+  {
+   "name": "Okozushi",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/okozushi/"
+  },
+  {
+   "name": "Omen",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/omen/"
+  },
+  {
+   "name": "Skinny Dennis",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/skinny-dennis/"
+  },
+  {
+   "name": "Tacoway Beach",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/tacoway-beach/"
+  },
+  {
+   "name": "Taverna Kyclades",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/taverna-kyclades/"
+  },
+  {
+   "name": "The Leopard at des Artistes",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/the-leopard-at-des-artistes/"
+  },
+  {
+   "name": "The Phoenix",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/the-phoenix/"
+  },
+  {
+   "name": "The Standard Biergarten",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/the-standard-biergarten/"
+  },
+  {
+   "name": "The Stonewall Inn",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/the-stonewall-inn/"
+  },
+  {
+   "name": "Veselka",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/veselka/"
+  },
+  {
+   "name": "BONDST",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/bondst/"
+  },
+  {
+   "name": "Bar Fortuna",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/bar-fortuna/"
+  },
+  {
+   "name": "Beauty Bar",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/beauty-bar/"
+  },
+  {
+   "name": "Caledonia Scottish Pub",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/caledonia-scottish-pub/"
+  },
+  {
+   "name": "Casa Mono",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/casa-mono/"
+  },
+  {
+   "name": "Crocodile Lounge",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/crocodile-lounge/"
+  },
+  {
+   "name": "El Parador Café",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/el-parador-cafe/"
+  },
+  {
+   "name": "Fairfax",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/fairfax/"
+  },
+  {
+   "name": "Ikinari Steak",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/ikinari-steak/"
+  },
+  {
+   "name": "Il Buco Alimentari e Vineria",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/il-buco-alimentari-e-vineria/"
+  },
+  {
+   "name": "Kwik Meal #1",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/kwik-meal-1/"
+  },
+  {
+   "name": "La Superior",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/la-superior/"
+  },
+  {
+   "name": "Oriental Garden",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/oriental-garden/"
+  },
+  {
+   "name": "Osteria Morini",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/osteria-morini/"
+  },
+  {
+   "name": "Quality Italian",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/quality-italian/"
+  },
+  {
+   "name": "Schaller’s Stube",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/schallers-stube/"
+  },
+  {
+   "name": "Sing Sing Karaoke",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/sing-sing-karaoke/"
+  },
+  {
+   "name": "Society Billiards",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/society-billiards/"
+  },
+  {
+   "name": "Tasty Hand-Pulled Noodles",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/tasty-hand-pulled-noodles/"
+  },
+  {
+   "name": "Tooker Alley",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/tooker-alley/"
+  },
+  {
+   "name": "Blue & Gold Tavern",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/bar/blue-and-gold-tavern/"
+  },
+  {
+   "name": "Khe-Yo",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/khe-yo/"
+  },
+  {
+   "name": "Sammy’s Halal",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/sammys-halal/"
+  },
+  {
+   "name": "Walker’s",
+   "rating": "78",
+   "rating_url": "http://nymag.com/listings/restaurant/walkers/"
+  },
+  {
+   "name": "Cookshop",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/cookshop/"
+  },
+  {
+   "name": "Dirty French",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/dirty-french/"
+  },
+  {
+   "name": "General Deb’s",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/general-debs/"
+  },
+  {
+   "name": "Gloria’s Caribbean Cuisine",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/glorias-caribbean-cuisine/"
+  },
+  {
+   "name": "Heidelberg",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/heidelberg/"
+  },
+  {
+   "name": "James",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/james/"
+  },
+  {
+   "name": "MeMe’s Diner",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/memes-diner/"
+  },
+  {
+   "name": "PSC (Polish Slavic Center) Cafeteria",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/psc-polish-slavic-center-cafeteria/"
+  },
+  {
+   "name": "Pianos",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/pianos/"
+  },
+  {
+   "name": "Salumeria Rosi",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/salumeria-rosi/"
+  },
+  {
+   "name": "Sik Gaek",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/sik-gaek/"
+  },
+  {
+   "name": "Sunshine",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/sunshine/"
+  },
+  {
+   "name": "The Diamond",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/the-diamond/"
+  },
+  {
+   "name": "Uncle Boons Sister",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/uncle-boons-sister/"
+  },
+  {
+   "name": "Westville",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/westville/"
+  },
+  {
+   "name": "Arturo’s",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/arturos/"
+  },
+  {
+   "name": "Boucherie",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/boucherie/"
+  },
+  {
+   "name": "Buffalo’s Famous at 773 Lounge",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/buffalos-famous-at-773-lounge/"
+  },
+  {
+   "name": "Djerdan Burek",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/djerdan-burek/"
+  },
+  {
+   "name": "Dosa Garden",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/dosa-garden/"
+  },
+  {
+   "name": "Emilio’s Ballato",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/emilios-ballato/"
+  },
+  {
+   "name": "Istria Sport Club",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/istria-sport-club/"
+  },
+  {
+   "name": "Karasu",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/karasu/"
+  },
+  {
+   "name": "Le Bilboquet",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/le-bilboquet/"
+  },
+  {
+   "name": "Lupa Osteria Romana",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/lupa-osteria-romana/"
+  },
+  {
+   "name": "Mr. Chow",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/mr-chow/"
+  },
+  {
+   "name": "Pinch Chinese",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/pinch-chinese/"
+  },
+  {
+   "name": "Rosemary’s",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/rosemarys/"
+  },
+  {
+   "name": "Tacos El Bronco",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/tacos-el-bronco/"
+  },
+  {
+   "name": "The Lobster Club",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/the-lobster-club/"
+  },
+  {
+   "name": "The Sea Grill",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/the-sea-grill/"
+  },
+  {
+   "name": "The Vanderbilt",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/the-vanderbilt/"
+  },
+  {
+   "name": "Two Hands Restaurant & Bar",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/two-hands-restaurant-and-bar/"
+  },
+  {
+   "name": "Upstairs at the Kimberly Hotel",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/upstairs-at-the-kimberly-hotel/"
+  },
+  {
+   "name": "Ward III",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/ward-iii/"
+  },
+  {
+   "name": "Bar Bruno",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/bar-bruno/"
+  },
+  {
+   "name": "Barrio Chino",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/barrio-chino/"
+  },
+  {
+   "name": "Brooklyn Heights Social Club",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/brooklyn-heights-social-club/"
+  },
+  {
+   "name": "Café Habana",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-habana/"
+  },
+  {
+   "name": "Jackson Diner",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/jackson-diner/"
+  },
+  {
+   "name": "Jongro BBQ",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/jongro-bbq/"
+  },
+  {
+   "name": "KGB Bar",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/kgb-bar/"
+  },
+  {
+   "name": "Kunjip",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/kunjip/"
+  },
+  {
+   "name": "La Slowteria",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/la-slowteria/"
+  },
+  {
+   "name": "Lexington Bar and Books",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/lexington-bar-and-books/"
+  },
+  {
+   "name": "L’Amico",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/lamico/"
+  },
+  {
+   "name": "Manhatta",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/manhatta/"
+  },
+  {
+   "name": "Noodle Pudding",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/noodle-pudding/"
+  },
+  {
+   "name": "Pietro’s",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/pietros/"
+  },
+  {
+   "name": "Riverpark",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/riverpark/"
+  },
+  {
+   "name": "Socarrat Paella Bar",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/socarrat-paella-bar/"
+  },
+  {
+   "name": "The Black Ant",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/the-black-ant/"
+  },
+  {
+   "name": "The Tippler",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/the-tippler/"
+  },
+  {
+   "name": "Tribeca Grill",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/tribeca-grill/"
+  },
+  {
+   "name": "Up & Up",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/up-and-up/"
+  },
+  {
+   "name": "Beyond Sushi",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/beyond-sushi/"
+  },
+  {
+   "name": "El Toro Blanco",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/el-toro-blanco/"
+  },
+  {
+   "name": "Michael’s",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/michaels/"
+  },
+  {
+   "name": "Mill Basin Kosher Deli",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/mill-basin-kosher-deli/"
+  },
+  {
+   "name": "Morimoto",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/morimoto/"
+  },
+  {
+   "name": "Petite Crevette",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/petite-crevette/"
+  },
+  {
+   "name": "Ruby’s Café",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/restaurant/rubys-cafe/"
+  },
+  {
+   "name": "The Royal Palms Shuffleboard Club",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/the-royal-palms-shuffleboard-club/"
+  },
+  {
+   "name": "Toad Hall",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/toad-hall/"
+  },
+  {
+   "name": "Turkey’s Nest Tavern",
+   "rating": "77",
+   "rating_url": "http://nymag.com/listings/bar/turkeys-nest-tavern/"
+  },
+  {
+   "name": "Balaboosta",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/balaboosta/"
+  },
+  {
+   "name": "Bubby’s",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/bubbys/"
+  },
+  {
+   "name": "Donut Pub",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/donut-pub/"
+  },
+  {
+   "name": "King of Falafel",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/king-of-falafel/"
+  },
+  {
+   "name": "Le Bain",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/bar/le-bain/"
+  },
+  {
+   "name": "Old Tbilisi Garden",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/old-tbilisi-garden/"
+  },
+  {
+   "name": "Tang Hotpot",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/tang-hotpot/"
+  },
+  {
+   "name": "Tartine",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/tartine/"
+  },
+  {
+   "name": "Temple Court",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/temple-court/"
+  },
+  {
+   "name": "Verlaine",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/bar/verlaine/"
+  },
+  {
+   "name": "Amaru Pisco Bar",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/bar/amaru-pisco-bar/"
+  },
+  {
+   "name": "An Choi",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/an-choi/"
+  },
+  {
+   "name": "B&H Dairy",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/b-and-h-dairy/"
+  },
+  {
+   "name": "Baba’s Pierogies",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/babas-pierogies/"
+  },
+  {
+   "name": "Cafe At Your Mother-in-Law",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/cafe-at-your-mother-in-law/"
+  },
+  {
+   "name": "City Subs",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/city-subs/"
+  },
+  {
+   "name": "Covina",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/covina/"
+  },
+  {
+   "name": "Emmett’s",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/emmetts/"
+  },
+  {
+   "name": "Felidia",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/felidia/"
+  },
+  {
+   "name": "Jimmy",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/bar/jimmy/"
+  },
+  {
+   "name": "Junior’s",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/juniors/"
+  },
+  {
+   "name": "Le Relais de Venise L’Entrecôte",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/le-relais-de-venise-lentrecote/"
+  },
+  {
+   "name": "Maiden Lane",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/maiden-lane/"
+  },
+  {
+   "name": "Nancy Whiskey Pub",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/bar/nancy-whiskey-pub/"
+  },
+  {
+   "name": "Norma’s",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/normas/"
+  },
+  {
+   "name": "San Matteo Pizza and Espresso Bar",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/san-matteo-pizza-and-espresso-bar/"
+  },
+  {
+   "name": "Sorriso Italian Salumeria",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/sorriso-italian-salumeria/"
+  },
+  {
+   "name": "The Farm on Adderley",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/the-farm-on-adderley/"
+  },
+  {
+   "name": "Thelewala",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/thelewala/"
+  },
+  {
+   "name": "Traif",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/traif/"
+  },
+  {
+   "name": "Emmett’s",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/emmetts/"
+  },
+  {
+   "name": "Factory Tamal",
+   "rating": "76",
+   "rating_url": "http://nymag.com/listings/restaurant/factory-tamal/"
+  },
+  {
+   "name": "456 Shanghai Cuisine",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/456-shanghai-cuisine/"
+  },
+  {
+   "name": "ABC Cocina",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/abc-cocina/"
+  },
+  {
+   "name": "Chumley’s",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/chumleys/"
+  },
+  {
+   "name": "Fancy Nancy",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/fancy-nancy/"
+  },
+  {
+   "name": "Hunan Kitchen of Grand Sichuan",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/hunan-kitchen-of-grand-sichuan/"
+  },
+  {
+   "name": "Japonica",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/japonica/"
+  },
+  {
+   "name": "Liman Restaurant",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/liman-restaurant/"
+  },
+  {
+   "name": "Loring Place",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/loring-place/"
+  },
+  {
+   "name": "Marc Forgione",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/marc-forgione/"
+  },
+  {
+   "name": "Mi Espiguita",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/mi-espiguita/"
+  },
+  {
+   "name": "Morandi",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/morandi/"
+  },
+  {
+   "name": "Nobu Downtown",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/nobu-downtown/"
+  },
+  {
+   "name": "Piccola Venezia",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/piccola-venezia/"
+  },
+  {
+   "name": "Snack Taverna",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/snack-taverna/"
+  },
+  {
+   "name": "Studio",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/studio/"
+  },
+  {
+   "name": "The Happiest Hour",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/the-happiest-hour/"
+  },
+  {
+   "name": "The Russian Tea Room",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/the-russian-tea-room/"
+  },
+  {
+   "name": "The Soul Spot",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/the-soul-spot/"
+  },
+  {
+   "name": "Baohaus",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/baohaus/"
+  },
+  {
+   "name": "Bobo",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/bobo/"
+  },
+  {
+   "name": "Bossa Nova Civic Club",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/bossa-nova-civic-club/"
+  },
+  {
+   "name": "Downtown Bakery",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/downtown-bakery/"
+  },
+  {
+   "name": "Eataly Downtown",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/eataly-downtown/"
+  },
+  {
+   "name": "Enoteca Maria",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/enoteca-maria/"
+  },
+  {
+   "name": "Fresco by Scotto",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/fresco-by-scotto/"
+  },
+  {
+   "name": "Naples 45 Ristorante e Pizzeria",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/naples-45-ristorante-e-pizzeria/"
+  },
+  {
+   "name": "Ocean View Café",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/ocean-view-cafe/"
+  },
+  {
+   "name": "Paul’s Da Burger Joint",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/pauls-da-burger-joint/"
+  },
+  {
+   "name": "STK",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/stk/"
+  },
+  {
+   "name": "Serendipity 3",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/serendipity-3/"
+  },
+  {
+   "name": "Strip House",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/strip-house/"
+  },
+  {
+   "name": "Sweet Chick",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/sweet-chick/"
+  },
+  {
+   "name": "Tamarind Tribeca",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/tamarind-tribeca/"
+  },
+  {
+   "name": "The Butcher’s Daughter",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/the-butchers-daughter/"
+  },
+  {
+   "name": "The Carnegie Club",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/the-carnegie-club/"
+  },
+  {
+   "name": "The Library at the Public",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/the-library-at-the-public/"
+  },
+  {
+   "name": "Tulcingo Del Valle",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/tulcingo-del-valle/"
+  },
+  {
+   "name": "Whiskey Tavern",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/whiskey-tavern/"
+  },
+  {
+   "name": "Agern",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/agern/"
+  },
+  {
+   "name": "Aquagrill",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/aquagrill/"
+  },
+  {
+   "name": "Bar LunÀtico",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/bar-lunatico/"
+  },
+  {
+   "name": "Caracas Arepa Bar",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/caracas-arepa-bar/"
+  },
+  {
+   "name": "Donovan’s Pub",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/donovans-pub/"
+  },
+  {
+   "name": "Giuseppina’s",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/giuseppinas/"
+  },
+  {
+   "name": "Hide-chan",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/hide-chan/"
+  },
+  {
+   "name": "Hill Country",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/hill-country/"
+  },
+  {
+   "name": "MarkJoseph Steakhouse",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/markjoseph-steakhouse/"
+  },
+  {
+   "name": "Mister Dips",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/mister-dips/"
+  },
+  {
+   "name": "Neapolitan Express",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/neapolitan-express/"
+  },
+  {
+   "name": "Oda House",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/oda-house/"
+  },
+  {
+   "name": "Parkside Lounge",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/parkside-lounge/"
+  },
+  {
+   "name": "Souk & Sandwich",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/restaurant/souk-and-sandwich/"
+  },
+  {
+   "name": "Swift Hibernian Lounge",
+   "rating": "75",
+   "rating_url": "http://nymag.com/listings/bar/swift-hibernian-lounge/"
+  },
+  {
+   "name": "Augustine",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/augustine/"
+  },
+  {
+   "name": "Niagara",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/bar/niagara/"
+  },
+  {
+   "name": "Old Homestead Steakhouse",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/old-homestead-steakhouse/"
+  },
+  {
+   "name": "Souen East Village",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/souen-east-village/"
+  },
+  {
+   "name": "WCOU Radio",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/bar/wcou-radio/"
+  },
+  {
+   "name": "Buddakan",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/buddakan/"
+  },
+  {
+   "name": "Butter Midtown",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/butter-midtown/"
+  },
+  {
+   "name": "Denino’s Pizzeria & Tavern",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/deninos-pizzeria-and-tavern/"
+  },
+  {
+   "name": "Kumo Sushi",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/kumo-sushi/"
+  },
+  {
+   "name": "Maison Premiere",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/maison-premiere/"
+  },
+  {
+   "name": "Pio Pio",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/pio-pio/"
+  },
+  {
+   "name": "Polonica",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/polonica/"
+  },
+  {
+   "name": "Randazzo’s Clam Bar of New York",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/randazzos-clam-bar-of-new-york/"
+  },
+  {
+   "name": "Tacos Morelos",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/tacos-morelos/"
+  },
+  {
+   "name": "The Dead Poet",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/bar/the-dead-poet/"
+  },
+  {
+   "name": "The Roost",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/bar/the-roost/"
+  },
+  {
+   "name": "Tía Pol",
+   "rating": "74",
+   "rating_url": "http://nymag.com/listings/restaurant/tia-pol/"
+  },
+  {
+   "name": "Farrell’s Bar & Grill",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/bar/farrells-bar-and-grill/"
+  },
+  {
+   "name": "Hanson Dry",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/bar/hanson-dry/"
+  },
+  {
+   "name": "Root & Bone",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/root-and-bone/"
+  },
+  {
+   "name": "Soogil",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/soogil/"
+  },
+  {
+   "name": "Thai Market",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/thai-market/"
+  },
+  {
+   "name": "The Jane Ballroom",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/bar/the-jane-ballroom/"
+  },
+  {
+   "name": "The National Bar and Dining Rooms",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/the-national-bar-and-dining-rooms/"
+  },
+  {
+   "name": "Uncle Nick’s",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/uncle-nicks/"
+  },
+  {
+   "name": "Aria Wine Bar",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/aria-wine-bar/"
+  },
+  {
+   "name": "Forlini’s",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/forlinis/"
+  },
+  {
+   "name": "Horseshoe Bar (7B)",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/bar/horseshoe-bar-7b/"
+  },
+  {
+   "name": "Il Mulino",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/il-mulino/"
+  },
+  {
+   "name": "Kettle of Fish",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/bar/kettle-of-fish/"
+  },
+  {
+   "name": "Koliba",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/koliba/"
+  },
+  {
+   "name": "Rolf’s",
+   "rating": "73",
+   "rating_url": "http://nymag.com/listings/restaurant/rolfs/"
+  },
+  {
+   "name": "Black Tap",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/restaurant/black-tap/"
+  },
+  {
+   "name": "Black and White",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/black-and-white/"
+  },
+  {
+   "name": "Hardware",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/hardware/"
+  },
+  {
+   "name": "Home Sweet Home",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/home-sweet-home/"
+  },
+  {
+   "name": "Lucky Strike",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/restaurant/lucky-strike/"
+  },
+  {
+   "name": "L’Express",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/restaurant/lexpress/"
+  },
+  {
+   "name": "Mr. Purple",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/mr-purple/"
+  },
+  {
+   "name": "Ramen Setagaya",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/restaurant/ramen-setagaya/"
+  },
+  {
+   "name": "The Alibi",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/the-alibi/"
+  },
+  {
+   "name": "The Cock",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/the-cock/"
+  },
+  {
+   "name": "The Ginger Man",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/the-ginger-man/"
+  },
+  {
+   "name": "Welcome to the Johnsons",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/welcome-to-the-johnsons/"
+  },
+  {
+   "name": "White Horse Tavern",
+   "rating": "72",
+   "rating_url": "http://nymag.com/listings/bar/white-horse-tavern/"
+  },
+  {
+   "name": "230 Fifth",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/bar/230-fifth/"
+  },
+  {
+   "name": "Gallagher’s Steak House",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/restaurant/gallaghers-steak-house/"
+  },
+  {
+   "name": "Lan Zhou Handmade Noodle",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/restaurant/lan-zhou-handmade-noodle/"
+  },
+  {
+   "name": "Legends",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/bar/legends/"
+  },
+  {
+   "name": "Lombardi’s",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/restaurant/lombardis/"
+  },
+  {
+   "name": "Mandoo Bar",
+   "rating": "71",
+   "rating_url": "http://nymag.com/listings/restaurant/mandoo-bar/"
+  },
+  {
+   "name": "ACME",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/acme/"
+  },
+  {
+   "name": "Ai Fiori",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/ai-fiori/"
+  },
+  {
+   "name": "BLT Steak",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/blt-steak/"
+  },
+  {
+   "name": "Becco",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/becco/"
+  },
+  {
+   "name": "Bromberg Bros. Blue Ribbon Fried Chicken",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/bromberg-bros-blue-ribbon-fried-chicken/"
+  },
+  {
+   "name": "Downtown Cipriani",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/downtown-cipriani/"
+  },
+  {
+   "name": "Evelina",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/evelina/"
+  },
+  {
+   "name": "Fragole",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/fragole/"
+  },
+  {
+   "name": "Lalito",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/lalito/"
+  },
+  {
+   "name": "Roll-N-Roaster",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/roll-n-roaster/"
+  },
+  {
+   "name": "The Frying Pan",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/bar/the-frying-pan/"
+  },
+  {
+   "name": "The Park",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/the-park/"
+  },
+  {
+   "name": "Union Pool",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/bar/union-pool/"
+  },
+  {
+   "name": "‘21’ Club",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/21-club/"
+  },
+  {
+   "name": "Aureole",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/aureole/"
+  },
+  {
+   "name": "Don Angie",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/don-angie/"
+  },
+  {
+   "name": "Freddy’s Bar",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/bar/freddys-bar/"
+  },
+  {
+   "name": "Peter Luger",
+   "rating": "70",
+   "rating_url": "http://nymag.com/listings/restaurant/peter-luger/"
+  },
+  {
+   "name": "1 Oak",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/bar/1-oak/"
+  },
+  {
+   "name": "King Cole Bar & Salon",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/bar/king-cole-bar-and-salon/"
+  },
+  {
+   "name": "La Esquina",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/la-esquina/"
+  },
+  {
+   "name": "Masa",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/masa/"
+  },
+  {
+   "name": "Nusr-Et",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/nusr-et/"
+  },
+  {
+   "name": "Public Kitchen",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/public-kitchen/"
+  },
+  {
+   "name": "Sugarfish",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/sugarfish/"
+  },
+  {
+   "name": "The Boiler Room",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/bar/the-boiler-room/"
+  },
+  {
+   "name": "The Loyal",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/the-loyal/"
+  },
+  {
+   "name": "Two Boots",
+   "rating": "69",
+   "rating_url": "http://nymag.com/listings/restaurant/two-boots/"
+  },
+  {
+   "name": "Grand Republic Cocktail Club",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/bar/grand-republic-cocktail-club/"
+  },
+  {
+   "name": "Henan Feng Wei",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/restaurant/henan-feng-wei/"
+  },
+  {
+   "name": "Industry",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/bar/industry/"
+  },
+  {
+   "name": "KazuNori",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/restaurant/kazunori/"
+  },
+  {
+   "name": "Panna II",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/restaurant/panna-ii/"
+  },
+  {
+   "name": "The Fat Black Pussycat",
+   "rating": "68",
+   "rating_url": "http://nymag.com/listings/bar/the-fat-black-pussycat/"
+  },
+  {
+   "name": "Bar Pisellino",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/bar/bar-pisellino/"
+  },
+  {
+   "name": "Dear Irving on Hudson",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/bar/dear-irving-on-hudson/"
+  },
+  {
+   "name": "Golden Diner",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings//golden-diner/"
+  },
+  {
+   "name": "Madame Vo BBQ",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/madame-vo-bbq/"
+  },
+  {
+   "name": "Maison Yaki",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/maison-yaki/"
+  },
+  {
+   "name": "Mercado Little Spain",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/mercado-little-spain/"
+  },
+  {
+   "name": "Odo",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/odo/"
+  },
+  {
+   "name": "Paulie Gee’s Slice Shop",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/paulie-gees-slice-shop/"
+  },
+  {
+   "name": "Shelsky’s Brooklyn Bagels",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/shelskys-brooklyn-bagels/"
+  },
+  {
+   "name": "The Fly",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/the-fly/"
+  },
+  {
+   "name": "Violet",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/violet/"
+  },
+  {
+   "name": "Felix",
+   "rating": "66",
+   "rating_url": "http://nymag.com/listings/restaurant/felix/"
+  },
+  {
+   "name": "OTTO Enoteca Pizzeria",
+   "rating": "66",
+   "rating_url": "http://nymag.com/listings/restaurant/otto-enoteca-pizzeria/"
+  },
+  {
+   "name": "Au Cheval",
+   "rating": "65",
+   "rating_url": "http://nymag.com/listings/restaurant/au-cheval/"
+  },
+  {
+   "name": "Beauty & Essex",
+   "rating": "65",
+   "rating_url": "http://nymag.com/listings/restaurant/beauty-and-essex/"
+  },
+  {
+   "name": "Benihana",
+   "rating": "65",
+   "rating_url": "http://nymag.com/listings/restaurant/benihana/"
+  },
+  {
+   "name": "GoldBar",
+   "rating": "65",
+   "rating_url": "http://nymag.com/listings/bar/goldbar/"
+  },
+  {
+   "name": "Tao Restaurant",
+   "rating": "65",
+   "rating_url": "http://nymag.com/listings/restaurant/tao-restaurant/"
+  },
+  {
+   "name": "Tavern on the Green",
+   "rating": "59",
+   "rating_url": "http://nymag.com/listings/restaurant/tavern-on-the-green/"
+  },
+  {
+   "name": "Oxalis",
+   "rating": "NEW",
+   "rating_url": "http://nymag.com/listings/restaurant/oxalis/"
+  }
+ ],
+}
