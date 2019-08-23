@@ -7,6 +7,8 @@ require("dotenv").config();
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
 const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET
+const YELP_API = process.env.REACT_APP_AUTH
+
 
 class Home extends React.Component {
   constructor(props) {
@@ -70,7 +72,7 @@ class Home extends React.Component {
         params: {},
         headers: {
           Authorization:
-            "Bearer Mfwm2_zb0qrWMcBjiB3Qw6GSIIG38TS-VdjZepk1X9EvQFw9A9fA24dIzoxyi5Xz4YjBnNnOMb0SGWTuzjTLN4lI9ZDZf9_9Mg7tFPyE8mzapp2y8tnEGbvWH6haXXYx"
+            YELP_API
         }
       })
       .then(async res => {
@@ -87,7 +89,6 @@ class Home extends React.Component {
 }
 
   render() {
-    // console.log(this.props)
     const {
       yelpData,
       foursquareData,
