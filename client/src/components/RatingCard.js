@@ -16,16 +16,10 @@ class RatingCard extends Component {
 
   handleFavorite = async e => {
     e.preventDefault();
-    // console.log(this.props.cardData);
     console.log(this.props.yelpData);
     console.log(this.props.foursquareData);
     const restObj = {
       name: this.props.cardData[0].venue.name,
-
-      // rating: parseFloat(
-      //   ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
-      // ),
-
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
         this.props.cardData[0].venue.bestPhoto.suffix
@@ -43,10 +37,6 @@ class RatingCard extends Component {
     };
 
     let ratingData;
-    console.log(`this is yelp props: ${this.props.yelpData}`);
-    console.log(`this is foursquare props: ${this.props.foursquareData}`);
-    console.log(`this is mag props: ${this.props.nymagData}`)
-    console.log(`this is infat props: ${this.props.infatData}`)
     let infatRating = parseFloat(this.props.infatData)
     let nymagRating = parseFloat(this.props.nymagData)
     

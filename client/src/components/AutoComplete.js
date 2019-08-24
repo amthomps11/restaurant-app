@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import infatData from "../data/infatuation-scrape";
 
-class SearchBar extends Component {
+export class Autocomplete extends Component {
   static propTypes = {
-    infatData: PropTypes.instanceOf(Array)
+    suggestions: PropTypes.instanceOf(Array)
   };
   static defaultProperty = {
-    infatData: []
+    suggestions: []
   };
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       activeSuggestion: 0,
       filteredSuggestions: [],
@@ -18,57 +17,48 @@ class SearchBar extends Component {
       userInput: ""
     };
   }
-  handleSearch = (event) => {
-      event.preventDefault();
-      this.props.handleSearch()
-    
-  }
-  handleChange = event => {
-    event.preventDefault();
-    this.props.handleChange(event);
-    const { suggestions } = this.props;
-    const userInput = event.currentTarget.value;
 
-    const filteredSuggestions = infatData.name.filter(
-      data =>
-        data.toLowerCase().indexOf(userInput.toLowerCase()) > -1
+  onChange = e => {
+    const { suggestions } = this.props;
+    const userInput = e.currentTarget.value;
+
+    const filteredSuggestions = suggestions.filter(
+      suggestion =>
+        suggestion.toLowerCase().indexOf(userInput.toLowerCase()) > -1
     );
+
     this.setState({
       activeSuggestion: 0,
       filteredSuggestions,
       showSuggestions: true,
-      userInput: event.currentTarget.value
+      userInput: e.currentTarget.value
     });
   };
-  handleCity = event => {
-    event.preventDefault();
-    this.props.handleCity(event);
-  }
- 
-  onClick = event => {
+
+  onClick = e => {
     this.setState({
       activeSuggestion: 0,
       filteredSuggestions: [],
       showSuggestions: false,
-      userInput: event.currentTarget.innerText
+      userInput: e.currentTarget.innerText
     });
   };
-  onKeyDown = event => {
+  onKeyDown = e => {
     const { activeSuggestion, filteredSuggestions } = this.state;
 
-    if (event.keyCode === 13) {
+    if (e.keyCode === 13) {
       this.setState({
         activeSuggestion: 0,
         showSuggestions: false,
         userInput: filteredSuggestions[activeSuggestion]
       });
-    } else if (event.keyCode === 38) {
+    } else if (e.keyCode === 38) {
       if (activeSuggestion === 0) {
         return;
       }
 
       this.setState({ activeSuggestion: activeSuggestion - 1 });
-    } else if (event.keyCode === 40) {
+    } else if (e.keyCode === 40) {
       if (activeSuggestion - 1 === filteredSuggestions.length) {
         return;
       }
@@ -79,7 +69,7 @@ class SearchBar extends Component {
 
   render() {
     const {
-      handleChange,
+      onChange,
       onClick,
       onKeyDown,
       state: {
@@ -103,7 +93,7 @@ class SearchBar extends Component {
 
               return (
                 <li key={suggestion} onClick={onClick}>
-                  {infatData}
+                  {suggestion}
                 </li>
               );
             })}
@@ -117,29 +107,20 @@ class SearchBar extends Component {
         );
       }
     }
+
     return (
-      <form className="search" onSubmit={this.props.handleSearch}>
+      <React.Fragment>
         <input
-          placeholder="I'm looking for..."
-          className="venue-search" 
-          type="text"
-          onChange={handleChange}
+          type="search"
+          placeholder= "I'm lookign for"
+          onChange={onChange}
           onKeyDown={onKeyDown}
           value={userInput}
-          suggestions={infatData}
         />
-         <input
-          placeholder='New York'
-          className="location-search"
-          type="text"
-          onChange={this.handleCity}
-        />
-        <button className="search-button" type="submit">
-          <i class="fas fa-search" />
-        </button>
-      </form>
+        {suggestionsListComponent}
+      </React.Fragment>
     );
   }
 }
 
-export default SearchBar;
+export default Autocomplete;

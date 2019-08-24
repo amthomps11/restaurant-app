@@ -65,10 +65,6 @@ class Home extends React.Component {
           console.log(`Nymag rating: ${this.state.nymagData}`)
 
         }
-    
-    
-    
-
 
     try {
 
