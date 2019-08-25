@@ -59,7 +59,7 @@ app.get("/venues", async (req, res) => {
   }
 });
 
-app.get("/:venue_id", async (req, res) => {
+app.get("/venues/:venue_id", async (req, res) => {
   try {
     const { venue_id } = req.params;
     const venue = await Venue.findByPk(venue_id);
@@ -88,6 +88,19 @@ app.put("/dashboard/:user_id/:venue_id", async (req, res) => {
     const user = await User.findByPk(user_id);
     const venue = await Venue.findByPk(venue_id);
     await user.removeVenue(venue);
+  } catch (e) {
+    throw e;
+  }
+});
+
+app.put("/dashboard/create/:user_id/:venue_id", async (req, res) => {
+  try {
+    const { user_id, venue_id } = req.params;
+    const user = await User.findByPk(user_id);
+    const venue = await Venue.findByPk(venue_id);
+    await user.addVenue(venue);
+    console.log(user);
+    res.send(newFav);
   } catch (e) {
     throw e;
   }

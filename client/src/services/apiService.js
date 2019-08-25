@@ -43,9 +43,28 @@ export const signUp = async data => {
 };
 
 export const addRestaurant = async (userId, restaurant) => {
-  console.log(restaurant.name);
-  const response = await apiClient.post(`/dashboard/${userId}`, restaurant);
-  return response;
+  let restName = restaurant.name;
+  const venues = await apiClient.get("/venues");
+  let isIn = false;
+  let venueId;
+
+  venues.data.forEach(venue => {
+    if (venue.name === restName) {
+      isIn = true;
+      venueId = venue.id;
+    }
+  });
+  if (!isIn) {
+    const response = await apiClient.post(`/dashboard/${userId}`, restaurant);
+    return response;
+  } else {
+    const venueToAssociate = await apiClient.get(`/venues/${venueId}`);
+    console.log(venueToAssociate);
+    const response = await apiClient.put(
+      `/dashboard/create/${userId}/${venueId}`
+    );
+    return response;
+  }
 };
 
 export const showFaves = async () => {

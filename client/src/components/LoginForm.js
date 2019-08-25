@@ -52,7 +52,6 @@ class LoginForm extends React.Component {
     );
 
     if (isSignedIn) {
-      console.log(this.props);
       localStorage.setItem("signedin", "true");
       return (
         <Redirect
