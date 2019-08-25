@@ -83,8 +83,8 @@ class SignupForm extends React.Component {
             <div>
               <p className="info-sub-header">Simple to use!</p>
               <p className="sub-info">
-                Just enter the name of a bar or resturaunt in New York you want
-                more info on.{" "}
+                Just enter the name of a bar or resturaunt and the city it's
+                located in you want more info on.{" "}
               </p>
               <p className="info-sub-header">Easier to decide</p>
               <p className="sub-info">
