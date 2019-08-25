@@ -112,7 +112,7 @@ export class Autocomplete extends Component {
       <React.Fragment>
         <input
           type="search"
-          placeholder= "I'm lookign for"
+          placeholder= "I'm looking for"
           onChange={onChange}
           onKeyDown={onKeyDown}
           value={userInput}

@@ -14,7 +14,7 @@ const Venue = VenueModel(db, Sequelize);
 
 Venue.belongsToMany(User, {
   onDelete: "cascade",
-  through: "user_venues"
+  through: "user_venues", 
 });
 
 User.belongsToMany(Venue, {
