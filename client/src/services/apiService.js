@@ -43,6 +43,7 @@ export const signUp = async data => {
 };
 
 export const addRestaurant = async (userId, restaurant) => {
+  console.log(restaurant.name);
   const response = await apiClient.post(`/dashboard/${userId}`, restaurant);
   return response;
 };

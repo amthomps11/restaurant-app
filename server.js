@@ -43,10 +43,27 @@ app.get("/", async (request, response) => {
   }
 });
 
-
 app.get("/users", async (req, res) => {
   try {
     res.json(await User.findAll());
+  } catch (e) {
+    res.send(500);
+  }
+});
+
+app.get("/venues", async (req, res) => {
+  try {
+    res.json(await Venue.findAll());
+  } catch (e) {
+    res.send(500);
+  }
+});
+
+app.get("/:venue_id", async (req, res) => {
+  try {
+    const { venue_id } = req.params;
+    const venue = await Venue.findByPk(venue_id);
+    res.json(venue);
   } catch (e) {
     res.send(500);
   }
@@ -71,6 +88,25 @@ app.put("/dashboard/:user_id/:venue_id", async (req, res) => {
     const user = await User.findByPk(user_id);
     const venue = await Venue.findByPk(venue_id);
     await user.removeVenue(venue);
+  } catch (e) {
+    throw e;
+  }
+});
+
+app.get("/dashboard/:user_id/:venue_id", async (req, res) => {
+  try {
+    const { user_id, venue_id } = req.params;
+
+    const user = await User.findByPk(user_id, {
+      include: [
+        {
+          model: Venue,
+          through: "user_venues"
+        }
+      ]
+    });
+    res.json(user);
+    console.log(user);
   } catch (e) {
     throw e;
   }
