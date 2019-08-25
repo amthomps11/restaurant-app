@@ -1,33 +1,57 @@
 import React from "react";
+import { addRestaurant } from "../services/apiService";
 
-function RatingCardRefactor(props) {
-  return (
-    <div className="ratingcard">
-      <React.Fragment>
+class RatingCardRefactor extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  handleFavorite = async e => {
+    e.preventDefault();
+    console.log("hi");
+    const restObj = {
+      name: this.props.name,
+
+      rating: this.props.ratingData,
+
+      number: this.props.number,
+      URL: this.props.imgURL,
+      Summary: this.props.summary,
+      link: this.props.linkURL
+    };
+
+    await addRestaurant(parseInt(localStorage.getItem("userID")), restObj);
+  };
+
+  render() {
+    return (
+      <div className="ratingcard">
         <React.Fragment>
-          <img src={props.imgURL} />
-          <div className="ratingandheader">
-            <div className="ratingCircle">{props.ratingData}</div>
-            <div className="venue-name-container">
-              <h1 className="restaurantName">{props.name}</h1>
-              <p className="phone-number">{props.number}</p>
+          <React.Fragment>
+            <img src={this.props.imgURL} />
+            <div className="ratingandheader">
+              <div className="ratingCircle">{this.props.ratingData}</div>
+              <div className="venue-name-container">
+                <h1 className="restaurantName">{this.props.name}</h1>
+                <p className="phone-number">{this.props.number}</p>
+              </div>
             </div>
-          </div>
-          <p className="venue-summary">"{props.summary}"</p>
-          <div className="button-container">
-            <a href={props.linkURL} target="_blank">
-              <button className="link-button">
-                <i class="fas fa-link" />
+            <p className="venue-summary">"{this.props.summary}"</p>
+            <div className="button-container">
+              <a href={this.props.linkURL} target="_blank">
+                <button className="link-button">
+                  <i class="fas fa-link" />
+                </button>
+              </a>
+              <button onClick={this.handleFavorite} className="like-button">
+                <i class="fas fa-heart" />
               </button>
-            </a>
-            <button className="like-button">
-              <i class="fas fa-heart" />
-            </button>
-          </div>
+            </div>
+          </React.Fragment>
         </React.Fragment>
-      </React.Fragment>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default RatingCardRefactor;

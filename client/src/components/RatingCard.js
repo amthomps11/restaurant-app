@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 import { addRestaurant } from "../services/apiService";
 
 class RatingCard extends Component {
