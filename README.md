@@ -1,6 +1,13 @@
 # Venu
 ## Aggregated ratings from Yelp and Foursquare as well as rating data scraped form the web on popular restaurants and bars around the world to provide the most accurate unbiased rating possible.
 
+## Technologies Used
+### Front End
+#### JavaScript, HTML, SCSS, React.js, Webpack, Axios, Babel, Sass
+### Back End
+#### Node.js, Express, Sequelize, PostGres, BCrypt, Passport
+
+
 ### https://venu-app-v2.herokuapp.com/
 
 ![Venu-Gif](https://media.giphy.com/media/f4IuMZi3T2m7x3do3M/giphy.gif)
