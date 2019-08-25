@@ -2,7 +2,6 @@ import React from "react";
 import SearchBar from "./search";
 import axios from "axios";
 import RatingCard from "./RatingCard";
-import RatingCardRefactor from "./RatingCardRefactor";
 import { EACCES } from "constants";
 import Homeratingcardcontainer from "./Homeratingcardcontainer";
 require("dotenv").config();
@@ -24,7 +23,8 @@ class Home extends React.Component {
       cardData: [],
       restObj: {},
       ratingColor: "",
-      error: false
+      error: false,
+      isThereCard: false
     };
   }
 
@@ -80,6 +80,7 @@ class Home extends React.Component {
           await this.setState({ yelpData: yelpData });
           await this.setState({ yelpVenueID: res.data.businesses[0].id });
         });
+      this.setState({ isThereCard: true });
     } catch (e) {
       this.setState({ error: true });
     }
@@ -113,7 +114,9 @@ class Home extends React.Component {
             userId={this.props.user.id}
           />
         )}
-        <Homeratingcardcontainer></Homeratingcardcontainer>
+        {this.state.isThereCard ? null : (
+          <Homeratingcardcontainer></Homeratingcardcontainer>
+        )}
       </React.Fragment>
     );
   }
