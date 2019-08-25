@@ -42,6 +42,7 @@ class Home extends React.Component {
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
+    this.setState({ isThereCard: true });
     try {
       await axios
         .get(
@@ -80,7 +81,6 @@ class Home extends React.Component {
           await this.setState({ yelpData: yelpData });
           await this.setState({ yelpVenueID: res.data.businesses[0].id });
         });
-      this.setState({ isThereCard: true });
     } catch (e) {
       this.setState({ error: true });
     }
@@ -103,7 +103,7 @@ class Home extends React.Component {
           handleCity={this.handleCity}
         />
         {this.state.error ? (
-          <div className="error">No restaurant found</div>
+          <div className="norest-error">No restaurant found</div>
         ) : (
           <RatingCard
             yelpData={yelpData}
@@ -114,7 +114,7 @@ class Home extends React.Component {
             userId={this.props.user.id}
           />
         )}
-        {this.state.isThereCard ? null : (
+        {this.state.isThereCard || this.state.error ? null : (
           <Homeratingcardcontainer></Homeratingcardcontainer>
         )}
       </React.Fragment>
