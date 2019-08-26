@@ -1,7 +1,7 @@
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const { User, Venue } = require("../models/index.js");
-const bcrypt = require("../models/index").bcrypt;
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const JWTStrategy = require("passport-jwt").Strategy;
 const ExtractJWT = require("passport-jwt").ExtractJwt;

@@ -37,4 +37,4 @@ User.beforeCreate(async (user, options) => {
   user.password = hashedPassword;
 });
 
-module.exports = { db, User, Venue, bcrypt };
+module.exports = { db, User, Venue };
