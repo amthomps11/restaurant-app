@@ -35,7 +35,6 @@ class Home extends React.Component {
   handleChange = event => {
     this.setState({
       input1: event.target.value
-
     });
   };
   handleCity = event => {
@@ -47,57 +46,48 @@ class Home extends React.Component {
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
+    this.setState({ isThereCard: true });
 
-    let jsonInput = this.state.input1
-    let foundInfat = infatData.name.find(item => item.name ==  jsonInput);
+    let jsonInput = this.state.input1;
+    let foundInfat = infatData.name.find(item => item.name == jsonInput);
     if (foundInfat) {
-    let infatRating = foundInfat.rating
-   
-      this.setState({infatData: infatRating})
-        console.log(`infatuation rating: ${ foundInfat.rating }`)
-      }
-    
+      let infatRating = foundInfat.rating;
 
-    let foundNy = nymagData.name.find(item => item.name ==  jsonInput);
+      this.setState({ infatData: infatRating });
+      console.log(`infatuation rating: ${foundInfat.rating}`);
+    }
+
+    let foundNy = nymagData.name.find(item => item.name == jsonInput);
     if (foundNy) {
-    let nyMagRating = foundNy.rating / 10
-  
-          this.setState({nymagData: nyMagRating})
-          console.log(`Nymag rating: ${this.state.nymagData}`)
+      let nyMagRating = foundNy.rating / 10;
 
-        }
-    
-    
-    
-
+      this.setState({ nymagData: nyMagRating });
+      console.log(`Nymag rating: ${this.state.nymagData}`);
+    }
 
     try {
+      await axios
+        .get(
+          `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${this.state.input1}&limit=1`
+        )
+        .then(async res => {
+          restObj.name = res.data.response.venues[0].name;
+          const venueID = res.data.response.venues[0].id;
 
-    
-    await axios
-      .get(
-        `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819&near=${this.state.input2}&intent=browse&radius=10000&query=${this.state.input1}&limit=1`
-      )
-      .then(async res => {
-        restObj.name = res.data.response.venues[0].name;
-        const venueID = res.data.response.venues[0].id;
-
-    
-
-        await axios
-          .get(
-            `https://api.foursquare.com/v2/venues/${venueID}?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819`
-          )
-          .then(async res => {
-            const foursquareData = res.data.response.venue.rating;
-            this.setState({ foursquareData: foursquareData });
-            await this.setState({ cardData: [res.data.response] });
-            await this.setState({ ratingColor: res.data.response.venue.ratingColor });
-            await this.setState({ error: false })
-
-          });
-      });
-
+          await axios
+            .get(
+              `https://api.foursquare.com/v2/venues/${venueID}?client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&v=20190819`
+            )
+            .then(async res => {
+              const foursquareData = res.data.response.venue.rating;
+              this.setState({ foursquareData: foursquareData });
+              await this.setState({ cardData: [res.data.response] });
+              await this.setState({
+                ratingColor: res.data.response.venue.ratingColor
+              });
+              await this.setState({ error: false });
+            });
+        });
 
       const URL = `https://desolate-everglades-25408.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
       await axios
@@ -113,7 +103,6 @@ class Home extends React.Component {
           await this.setState({ yelpData: yelpData });
           await this.setState({ yelpVenueID: res.data.businesses[0].id });
         });
-      this.setState({ isThereCard: true });
     } catch (e) {
       this.setState({ error: true });
     }
@@ -130,7 +119,6 @@ class Home extends React.Component {
       ratingColor
     } = this.state;
 
-    
     // const imgURL = this.state.cardData[0]
     return (
       <React.Fragment>
@@ -140,23 +128,23 @@ class Home extends React.Component {
           handleCity={this.handleCity}
         />
 
-        {this.state.error ? (<div className="error">No restaurant found</div>) : (<RatingCard
-          
-          
-          yelpData={yelpData}
-          foursquareData={foursquareData}
-          infatData={infatData}
-          nymagData={nymagData}
-          review={review}
-          cardData={cardData}
-          ratingColor={ratingColor}
-          userId={this.props.user.id}
-        />)}
-         {this.state.isThereCard ? null : (
+        {this.state.error ? (
+          <div className="error">No restaurant found</div>
+        ) : (
+          <RatingCard
+            yelpData={yelpData}
+            foursquareData={foursquareData}
+            infatData={infatData}
+            nymagData={nymagData}
+            review={review}
+            cardData={cardData}
+            ratingColor={ratingColor}
+            userId={this.props.user.id}
+          />
+        )}
+        {this.state.isThereCard ? null : (
           <Homeratingcardcontainer></Homeratingcardcontainer>
         )}
-       
-
       </React.Fragment>
     );
   }

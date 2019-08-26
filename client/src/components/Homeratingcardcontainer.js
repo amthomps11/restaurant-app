@@ -437,7 +437,6 @@ const venues = [
 function Homeratingcardcontainer(props) {
   return (
     <React.Fragment>
-      Trending Restaurants
       <div className="home-ratingcard-container">
         {venues.map(venue => {
           const { id, rating, name, number, URL, Summary, link } = venue;
