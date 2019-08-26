@@ -19,10 +19,6 @@ class RatingCard extends Component {
     const restObj = {
       name: this.props.cardData[0].venue.name,
 
-      // rating: parseFloat(
-      //   ((this.props.yelpData + this.props.foursquareData) / 2).toFixed(1)
-      // ),
-
       number: this.props.cardData[0].venue.contact.formattedPhone,
       URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${this.props.cardData[0].venue.bestPhoto.suffix}`,
       Summary: this.props.cardData[0].venue.tips.groups[0].items[0].text,
@@ -41,36 +37,39 @@ class RatingCard extends Component {
 
     console.log(`this is yelp props: ${this.props.yelpData}`);
     console.log(`this is foursquare props: ${this.props.foursquareData}`);
-    console.log(`this is mag props: ${this.props.nymagData}`)
-    console.log(`this is infat props: ${this.props.infatData}`)
-    let infatRating = parseFloat(this.props.infatData)
-    let nymagRating = parseFloat(this.props.nymagData)
-    
-    
-    // if (this.props.yelpData && this.props.foursquareData) 
-    
+    console.log(`this is mag props: ${this.props.nymagData}`);
+    console.log(`this is infat props: ${this.props.infatData}`);
+    let infatRating = parseFloat(this.props.infatData);
+    let nymagRating = parseFloat(this.props.nymagData);
+
+    // if (this.props.yelpData && this.props.foursquareData)
+
     let ratingArray = [];
-    ratingArray.push(infatRating)
-    ratingArray.push(nymagRating)
-    if(this.props.yelpData != undefined){
-        ratingArray.push(this.props.yelpData)
-      }
-    if(this.props.foursquareData != undefined){
-        ratingArray.push(this.props.foursquareData)
-      }
-    
-      
-      let result = ratingArray.reduce((a, c) => {
+    ratingArray.push(infatRating);
+    ratingArray.push(nymagRating);
+    if (this.props.yelpData != undefined) {
+      ratingArray.push(this.props.yelpData);
+    }
+    if (this.props.foursquareData != undefined) {
+      ratingArray.push(this.props.foursquareData);
+    }
+
+    let result = ratingArray.reduce(
+      (a, c) => {
         if (c !== 0) {
           a.count++;
           a.sum += c;
         }
-        
+
         return a;
-      }, {count: 0, sum: 0});
-      if (result.count){ ratingData = result.sum / result.count}
-      console.log(ratingData)
-      console.log(ratingArray)
+      },
+      { count: 0, sum: 0 }
+    );
+    if (result.count) {
+      ratingData = result.sum / result.count;
+    }
+    console.log(ratingData);
+    console.log(ratingArray);
 
     return (
       <div className="ratingcard">
