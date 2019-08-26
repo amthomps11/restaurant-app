@@ -3,11 +3,20 @@ const UserModel = require("./user");
 const VenueModel = require("./venue");
 const bcrypt = require("bcrypt");
 
-const db = new Sequelize({
-  database: "rest_db",
-  dialect: "postgres"
-});
+let db;
 
+if (process.env.NODE_ENV === "production") {
+  // If the node environment is production, connect to a remote PSQL database
+  db = new Sequelize(process.env.DATABASE_URL, {
+    dialect: "postgres"
+  });
+} else {
+  // Else connect to a local instance of PSQL running on your machine
+  db = new Sequelize({
+    database: "rest_db",
+    dialect: "postgres"
+  });
+}
 const User = UserModel(db, Sequelize);
 
 const Venue = VenueModel(db, Sequelize);
