@@ -1,12 +1,8 @@
 import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import { login, getProfile, signUp } from "../services/apiService";
 import authService from "../services/authService";
-import { router } from "react-router";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import mainLogo from '../venue-logo.png';
-
+import mainLogo from "../venue-logo.png";
 
 class MyNavbar extends React.Component {
   constructor(props) {
@@ -37,7 +33,6 @@ class MyNavbar extends React.Component {
   render() {
     let userId = localStorage.getItem("userID");
     const { isSignedIn, user } = this.props;
-    console.log(userId);
     return (
       <Navbar
         collapseOnSelect

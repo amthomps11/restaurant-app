@@ -5,12 +5,12 @@ import SearchBar from "./search";
 import axios from "axios";
 import RatingCard from "./RatingCard";
 import { EACCES } from "constants";
+import Homeratingcardcontainer from "./Homeratingcardcontainer";
 require("dotenv").config();
 
-const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
-const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET
-const YELP_API = process.env.REACT_APP_AUTH
-
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
+const YELP_API = process.env.REACT_APP_AUTH;
 
 class Home extends React.Component {
   constructor(props) {
@@ -28,28 +28,37 @@ class Home extends React.Component {
       restObj: {},
       ratingColor: "",
       error: false,
-      ratingData: 0
+
+      ratingData: 0,
+
+      isThereCard: false
+
     };
   }
 
   handleChange = event => {
     this.setState({
+
       input1: event.target.value.toLowerCase()
+
     });
 
   };
   handleCity = event => {
     this.setState({
       input2: event.target.value
-    })
-  }
+    });
+  };
 
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
-    let jsonInput = this.state.input1
-    let foundInfat = infatData.name.find(item => item.name ==  jsonInput);
+    this.setState({ isThereCard: true });
+
+    let jsonInput = this.state.input1;
+    let foundInfat = infatData.name.find(item => item.name == jsonInput);
     if (foundInfat) {
+
     let infatRating = foundInfat.rating
    
       this.setState({infatData: infatRating})
@@ -59,12 +68,11 @@ class Home extends React.Component {
       }
     
 
-    let foundNy = nymagData.name.find(item => item.name ==  jsonInput);
-    if (foundNy) {
-    let nyMagRating = foundNy.rating / 10
-  
-          this.setState({nymagData: nyMagRating})
-          console.log(`Nymag rating: ${this.state.nymagData}`)
+
+      this.setState({ infatData: infatRating });
+      console.log(`infatuation rating: ${foundInfat.rating}`);
+    }
+
 
     }
     
@@ -74,7 +82,12 @@ class Home extends React.Component {
     
 
 
+      this.setState({ nymagData: nyMagRating });
+      console.log(`Nymag rating: ${this.state.nymagData}`);
+    }
+
     try {
+
 
     
     await axios
@@ -152,11 +165,9 @@ class Home extends React.Component {
         } 
       })
       
+
     }
-    catch(e){
-     this.setState({error:true})
-    }
-}
+  };
 
   render() {
     const {
@@ -171,7 +182,6 @@ class Home extends React.Component {
     } = this.state;
     console.log(this.state.error)
 
-    
     // const imgURL = this.state.cardData[0]
     return (
       <React.Fragment>
@@ -180,6 +190,7 @@ class Home extends React.Component {
           handleSearch={this.handleSearch}
           handleCity={this.handleCity}
         />
+
         {this.state.error ? (<div className="error">
           <span><i class="fas fa-skull-crossbones"></i></span>
           We couldn't find that restaurant!
@@ -197,7 +208,11 @@ class Home extends React.Component {
           ratingData={ratingData}
           userId={this.props.user.id}
         />)}
+      {this.state.isThereCard ? null : (
+          <Homeratingcardcontainer></Homeratingcardcontainer>
+        )}
        
+
       </React.Fragment>
     );
   }

@@ -1,5 +1,4 @@
 const { User, Venue } = require("../models");
-const bcrypt = require("bcrypt");
 
 const seedDb = async () => {
   try {
@@ -10,13 +9,6 @@ const seedDb = async () => {
     await Venue.destroy({
       where: {}
     });
-    async function encryptedPassword(password) {
-      let encrypted = await bcrypt.hash(
-        password,
-        Number(process.env.SALT_ROUNDS)
-      );
-      return encrypted;
-    }
 
     const alex = await User.create({
       name: "Alex",
@@ -29,9 +21,6 @@ const seedDb = async () => {
       email: "chris@thompson.com",
       password: "password"
     });
-
-    // await chris.setVenues([venue1]);
-    // await alex.setVenues([venue2]);
   } catch (e) {
     console.error(e);
   }
