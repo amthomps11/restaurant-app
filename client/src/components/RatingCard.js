@@ -81,6 +81,7 @@ class RatingCard extends Component {
     console.log(`this is foursquare props: ${this.props.foursquareData}`);
     console.log(`this is mag props: ${this.props.nymagData}`);
     console.log(`this is infat props: ${this.props.infatData}`);
+
     let infatRating = parseFloat(this.props.infatData);
     let nymagRating = parseFloat(this.props.nymagData);
 
@@ -111,7 +112,6 @@ class RatingCard extends Component {
       ratingData = result.sum / result.count;
     }
     console.log(ratingData);
-    console.log(ratingArray);
 
     return (
       <div className="ratingcard">

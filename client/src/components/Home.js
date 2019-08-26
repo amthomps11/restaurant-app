@@ -98,7 +98,7 @@ class Home extends React.Component {
           }
         })
         .then(async res => {
-          const yelpData = parseInt(res.data.businesses[0].rating) * 2;
+          const yelpData = parseFloat(res.data.businesses[0].rating) * 2;
           restObj.yelpRating = res.data.businesses;
           await this.setState({ yelpData: yelpData });
           await this.setState({ yelpVenueID: res.data.businesses[0].id });
@@ -129,7 +129,12 @@ class Home extends React.Component {
         />
 
         {this.state.error ? (
-          <div className="restmissing-error">No restaurant found</div>
+          <div className="error">
+            <span>
+              <i class="fas fa-skull-crossbones"></i>
+            </span>
+            We couldn't find that restaurant!
+          </div>
         ) : (
           <RatingCard
             yelpData={yelpData}
