@@ -129,7 +129,7 @@ class Home extends React.Component {
         />
 
         {this.state.error ? (
-          <div className="error">No restaurant found</div>
+          <div className="restmissing-error">No restaurant found</div>
         ) : (
           <RatingCard
             yelpData={yelpData}

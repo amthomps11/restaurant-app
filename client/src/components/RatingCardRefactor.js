@@ -11,7 +11,7 @@ class RatingCardRefactor extends React.Component {
     const { ratingData, name, number, linkURL, imgURL, summary } = this.props;
     const restObj = {
       name: name,
-      ratingData: ratingData,
+      rating: ratingData,
       number: number,
       URL: imgURL,
       Summary: summary,
