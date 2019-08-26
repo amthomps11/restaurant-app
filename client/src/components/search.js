@@ -4,11 +4,10 @@ class SearchBar extends Component {
   constructor() {
     super();
   }
-  handleSearch = (event) => {
-      event.preventDefault();
-      this.props.handleSearch()
-    
-  }
+  handleSearch = event => {
+    event.preventDefault();
+    this.props.handleSearch();
+  };
   handleChange = event => {
     event.preventDefault();
     this.props.handleChange(event);
@@ -16,8 +15,7 @@ class SearchBar extends Component {
   handleCity = event => {
     event.preventDefault();
     this.props.handleCity(event);
-  }
-  
+  };
 
   render() {
     return (
@@ -28,8 +26,8 @@ class SearchBar extends Component {
           type="text"
           onChange={this.handleChange}
         />
-         <input
-          placeholder='New York'
+        <input
+          placeholder="New York"
           className="location-search"
           type="text"
           onChange={this.handleCity}

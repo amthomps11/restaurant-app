@@ -1,6 +1,5 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
-import { signUp } from "../services/apiService";
 
 class SignupForm extends React.Component {
   constructor(props) {
@@ -9,7 +8,7 @@ class SignupForm extends React.Component {
       name: "",
       email: "",
       password: "",
-      showError: false,
+      showError: false
     };
   }
 
@@ -18,25 +17,24 @@ class SignupForm extends React.Component {
     console.log("submit form");
     const { name, email, password } = this.state;
     const { handleSignup } = this.props;
-  if (name == false || email == false || password == false){
-    this.setState({showError: true})
-  }
-  else{
-    try {
-      const data = {
-        name: this.state.name,
-        email: this.state.email,
-        password: this.state.password
-      };
-      await handleSignup({ name, email, password });
-      // await signUp(data);
-    } catch (e) {
-      this.setState(state => {
-        return { showError: true };
-      });
-      throw e;
+    if (name === false || email === false || password === false) {
+      this.setState({ showError: true });
+    } else {
+      try {
+        const data = {
+          name: this.state.name,
+          email: this.state.email,
+          password: this.state.password
+        };
+        await handleSignup({ name, email, password });
+        // await signUp(data);
+      } catch (e) {
+        this.setState(state => {
+          return { showError: true };
+        });
+        throw e;
+      }
     }
-  }
   };
 
   handleTextInput = e => {

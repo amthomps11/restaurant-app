@@ -16,9 +16,6 @@ class RatingCard extends Component {
 
   handleFavorite = async e => {
     e.preventDefault();
-    // console.log(this.props.cardData);
-    console.log(this.props.yelpData);
-    console.log(this.props.foursquareData);
     const restObj = {
       name: this.props.cardData[0].venue.name,
 
@@ -27,9 +24,7 @@ class RatingCard extends Component {
       // ),
 
       number: this.props.cardData[0].venue.contact.formattedPhone,
-      URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${
-        this.props.cardData[0].venue.bestPhoto.suffix
-      }`,
+      URL: `${this.props.cardData[0].venue.bestPhoto.prefix}500x500${this.props.cardData[0].venue.bestPhoto.suffix}`,
       Summary: this.props.cardData[0].venue.tips.groups[0].items[0].text,
       link: this.props.cardData[0].venue.url
     };
@@ -43,6 +38,7 @@ class RatingCard extends Component {
     };
 
     let ratingData;
+
     console.log(`this is yelp props: ${this.props.yelpData}`);
     console.log(`this is foursquare props: ${this.props.foursquareData}`);
     console.log(`this is mag props: ${this.props.nymagData}`)
@@ -75,21 +71,20 @@ class RatingCard extends Component {
       if (result.count){ ratingData = result.sum / result.count}
       console.log(ratingData)
       console.log(ratingArray)
+
     return (
       <div className="ratingcard">
         <React.Fragment>
           {this.props.cardData.map(data => (
             <React.Fragment>
               <img
-                src={`${data.venue.bestPhoto.prefix}500x500${
-                  data.venue.bestPhoto.suffix
-                }`}
+                src={`${data.venue.bestPhoto.prefix}500x500${data.venue.bestPhoto.suffix}`}
               />
               <div className="ratingandheader">
                 <div className="ratingCircle" style={ratingColor}>
                   {ratingData.toFixed(1)}
                 </div>
-                <div className ="venue-name-container">
+                <div className="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>
                   <p className="phone-number">
                     {data.venue.contact.formattedPhone}

@@ -5,12 +5,12 @@ import SearchBar from "./search";
 import axios from "axios";
 import RatingCard from "./RatingCard";
 import { EACCES } from "constants";
+import Homeratingcardcontainer from "./Homeratingcardcontainer";
 require("dotenv").config();
 
-const CLIENT_ID = process.env.REACT_APP_CLIENT_ID
-const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET
-const YELP_API = process.env.REACT_APP_AUTH
-
+const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLIENT_SECRET;
+const YELP_API = process.env.REACT_APP_AUTH;
 
 class Home extends React.Component {
   constructor(props) {
@@ -27,26 +27,27 @@ class Home extends React.Component {
       cardData: [],
       restObj: {},
       ratingColor: "",
-      error: false
+      error: false,
+      isThereCard: false
     };
   }
 
   handleChange = event => {
     this.setState({
       input1: event.target.value
-      
 
     });
   };
   handleCity = event => {
     this.setState({
       input2: event.target.value
-    })
-  }
+    });
+  };
 
   handleSearch = async e => {
     e.preventDefault();
     const restObj = {};
+
     let jsonInput = this.state.input1
     let foundInfat = infatData.name.find(item => item.name ==  jsonInput);
     if (foundInfat) {
@@ -97,27 +98,26 @@ class Home extends React.Component {
           });
       });
 
-    const URL = `https://desolate-everglades-25408.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
-    await axios
-      .get(URL, {
-        params: {},
-        headers: {
-          Authorization:
-            YELP_API
-        }
-      })
-      .then(async res => {
-        const yelpData = parseInt(res.data.businesses[0].rating) * 2;
-        restObj.yelpRating = res.data.businesses;
-        await this.setState({ yelpData: yelpData });
-        await this.setState({ yelpVenueID: res.data.businesses[0].id });
-      })
-      
+
+      const URL = `https://desolate-everglades-25408.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${this.state.input1}&location=${this.state.input2}&limit=1`;
+      await axios
+        .get(URL, {
+          params: {},
+          headers: {
+            Authorization: YELP_API
+          }
+        })
+        .then(async res => {
+          const yelpData = parseInt(res.data.businesses[0].rating) * 2;
+          restObj.yelpRating = res.data.businesses;
+          await this.setState({ yelpData: yelpData });
+          await this.setState({ yelpVenueID: res.data.businesses[0].id });
+        });
+      this.setState({ isThereCard: true });
+    } catch (e) {
+      this.setState({ error: true });
     }
-    catch(e){
-     this.setState({error:true})
-    }
-}
+  };
 
   render() {
     const {
@@ -139,6 +139,7 @@ class Home extends React.Component {
           handleSearch={this.handleSearch}
           handleCity={this.handleCity}
         />
+
         {this.state.error ? (<div className="error">No restaurant found</div>) : (<RatingCard
           
           
@@ -151,7 +152,11 @@ class Home extends React.Component {
           ratingColor={ratingColor}
           userId={this.props.user.id}
         />)}
+         {this.state.isThereCard ? null : (
+          <Homeratingcardcontainer></Homeratingcardcontainer>
+        )}
        
+
       </React.Fragment>
     );
   }
