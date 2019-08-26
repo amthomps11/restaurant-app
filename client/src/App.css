@@ -469,7 +469,6 @@ body {
   outline: none;
 }
 
-
 .error {
   display: flex;
   justify-content: center;
@@ -483,6 +482,7 @@ body {
 }
 .error span {
   font-size: 50px;
+}
 
 .home-ratingcard-container {
   display: flex;
@@ -496,7 +496,6 @@ body {
 .home-ratingcard-container .ratingcard {
   margin: 20px;
   /* animation: horizontal-scroll 60s linear infinite; */
-
 }
 
 /*# sourceMappingURL=App.css.map */

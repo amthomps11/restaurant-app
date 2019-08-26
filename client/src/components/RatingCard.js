@@ -77,7 +77,6 @@ class RatingCard extends Component {
 
     let ratingData;
 
-
     console.log(`this is yelp props: ${this.props.yelpData}`);
     console.log(`this is foursquare props: ${this.props.foursquareData}`);
     console.log(`this is mag props: ${this.props.nymagData}`);
@@ -113,8 +112,6 @@ class RatingCard extends Component {
       ratingData = result.sum / result.count;
     }
     console.log(ratingData);
-    console.log(ratingArray);
-
 
     return (
       <div className="ratingcard">
@@ -130,7 +127,7 @@ class RatingCard extends Component {
               )}
               <div className="ratingandheader">
                 <div className="ratingCircle" style={ratingColor}>
-                  {this.props.ratingData.toFixed(1)}
+                  {ratingData.toFixed(1)}
                 </div>
                 <div className="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>
