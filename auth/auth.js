@@ -1,7 +1,7 @@
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const { User, Venue } = require("../models/index.js");
-const bcrypt = require("bcrypt");
+const bcrypt = require("../models/index").bcrypt;
 const jwt = require("jsonwebtoken");
 const JWTStrategy = require("passport-jwt").Strategy;
 const ExtractJWT = require("passport-jwt").ExtractJwt;
@@ -38,18 +38,18 @@ passport.use(
     async (email, password, done) => {
       try {
         // find user by their email
-       
+
         const user = await User.findOne({
           where: { email: email },
           include: [{ model: Venue, through: "user_venues" }]
         });
-        
+
         if (!user) {
           return done(null, false, { message: "User not found" });
         }
         // compare passwords
         const validate = await bcrypt.compare(password, user.password);
-        
+
         if (!validate) {
           return done(null, false, { message: "Wrong password" });
         }

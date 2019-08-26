@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const UserModel = require("./user");
 const VenueModel = require("./venue");
-const bcrypt = require("../models/index.js").bcrypt;
+const bcrypt = require("bcrypt");
 
 let db;
 
