@@ -22,6 +22,7 @@ body {
 }
 .app-container .dashboard-greeting {
   color: white;
+  margin-bottom: 15px;
 }
 
 .navbar-light {
