@@ -19,7 +19,6 @@ authRouter.post("/signup", async (req, res, next) => {
 
 // matches '/auth/login' route
 authRouter.post("/login", (req, res, next) => {
-
   passport.authenticate("login", async (err, user, info) => {
     try {
       if (err) {

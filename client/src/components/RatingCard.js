@@ -42,39 +42,35 @@ class RatingCard extends Component {
       backgroundColor: `#${this.props.ratingColor}`
     };
 
-    let ratingData;
     console.log(`this is yelp props: ${this.props.yelpData}`);
     console.log(`this is foursquare props: ${this.props.foursquareData}`);
-    console.log(`this is mag props: ${this.props.nymagData}`)
-    console.log(`this is infat props: ${this.props.infatData}`)
-    let infatRating = parseFloat(this.props.infatData)
-    let nymagRating = parseFloat(this.props.nymagData)
-    
-    
-    // if (this.props.yelpData && this.props.foursquareData) 
-    
-    let ratingArray = [];
-    ratingArray.push(infatRating)
-    ratingArray.push(nymagRating)
-    if(this.props.yelpData != undefined){
-        ratingArray.push(this.props.yelpData)
-      }
-    if(this.props.foursquareData != undefined){
-        ratingArray.push(this.props.foursquareData)
-      }
-    
-      
-      let result = ratingArray.reduce((a, c) => {
-        if (c !== 0) {
-          a.count++;
-          a.sum += c;
-        }
-        
-        return a;
-      }, {count: 0, sum: 0});
-      if (result.count){ ratingData = result.sum / result.count}
-      console.log(ratingData)
-      console.log(ratingArray)
+    console.log(`this is mag props: ${this.props.nymagData}`);
+    console.log(`this is infat props: ${this.props.infatData}`);
+    console.log(this.props.ratingData);
+    // if (this.props.yelpData && this.props.foursquareData)
+    // let ratingArray = [];
+    //     ratingArray.push(infatRating)
+    //     ratingArray.push(nymagRating)
+    //     if(this.props.yelpData != undefined){
+    //         ratingArray.push(this.props.yelpData)
+    //       }
+    //     if(this.props.foursquareData != undefined){
+    //         ratingArray.push(this.props.foursquareData)
+    //       }
+
+    //       let result = ratingArray.reduce((a, c) => {
+    //         if (c !== 0) {
+    //           a.count++;
+    //           a.sum += c;
+    //         }
+
+    //         return a;
+    //       }, {count: 0, sum: 0});
+    //     if (result.count) { ratingData = result.sum / result.count }
+    //     // ratingArray = []
+    //     console.log(ratingData)
+    //     console.log(ratingArray)
+
     return (
       <div className="ratingcard">
         <React.Fragment>
@@ -87,9 +83,9 @@ class RatingCard extends Component {
               />
               <div className="ratingandheader">
                 <div className="ratingCircle" style={ratingColor}>
-                  {ratingData.toFixed(1)}
+                  {this.props.ratingData.toFixed(1)}
                 </div>
-                <div className ="venue-name-container">
+                <div className="venue-name-container">
                   <h1 className="restaurantName">{data.venue.name}</h1>
                   <p className="phone-number">
                     {data.venue.contact.formattedPhone}

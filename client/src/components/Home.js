@@ -27,16 +27,16 @@ class Home extends React.Component {
       cardData: [],
       restObj: {},
       ratingColor: "",
-      error: false
+      error: false,
+      ratingData: 0
     };
   }
 
   handleChange = event => {
     this.setState({
-      input1: event.target.value
-      
-
+      input1: event.target.value.toLowerCase()
     });
+
   };
   handleCity = event => {
     this.setState({
@@ -54,6 +54,8 @@ class Home extends React.Component {
    
       this.setState({infatData: infatRating})
         console.log(`infatuation rating: ${ foundInfat.rating }`)
+    } else {
+      this.setState({infatData: 0})
       }
     
 
@@ -64,7 +66,9 @@ class Home extends React.Component {
           this.setState({nymagData: nyMagRating})
           console.log(`Nymag rating: ${this.state.nymagData}`)
 
-        }
+    }
+    
+    
     
     
     
@@ -106,11 +110,46 @@ class Home extends React.Component {
             YELP_API
         }
       })
+      
       .then(async res => {
-        const yelpData = parseInt(res.data.businesses[0].rating) * 2;
+        
+        let ratingData
+        const yelpData = (res.data.businesses[0].rating) * 2;
         restObj.yelpRating = res.data.businesses;
         await this.setState({ yelpData: yelpData });
         await this.setState({ yelpVenueID: res.data.businesses[0].id });
+        let infatRating = parseFloat(this.state.infatData)
+        let nymagRating = parseFloat(this.state.nymagData)
+        let ratingArray = [];
+        ratingArray.push(infatRating)
+        ratingArray.push(nymagRating)
+        if(this.state.yelpData != undefined){
+            ratingArray.push(this.state.yelpData)
+          }
+        if(this.state.foursquareData != undefined){
+            ratingArray.push(this.state.foursquareData)
+          }
+        
+          
+          let result = ratingArray.reduce((a, c) => {
+            if (c !== 0) {
+              a.count++;
+              a.sum += c;
+            }
+            
+            return a;
+          }, { count: 0, sum: 0 });
+        if (result.count) { ratingData = result.sum / result.count }
+        await this.setState({ratingData: ratingData})
+      
+        console.log(ratingData)
+        console.log(ratingArray)
+   
+
+         ratingArray = [];
+        if (this.state.cardData == []) {
+          await this.setState({error:true})
+        } 
       })
       
     }
@@ -127,8 +166,10 @@ class Home extends React.Component {
       infatData,
       review,
       cardData,
-      ratingColor
+      ratingColor,
+      ratingData
     } = this.state;
+    console.log(this.state.error)
 
     
     // const imgURL = this.state.cardData[0]
@@ -139,7 +180,11 @@ class Home extends React.Component {
           handleSearch={this.handleSearch}
           handleCity={this.handleCity}
         />
-        {this.state.error ? (<div className="error">No restaurant found</div>) : (<RatingCard
+        {this.state.error ? (<div className="error">
+          <span><i class="fas fa-skull-crossbones"></i></span>
+          We couldn't find that restaurant!
+          </div>) : (
+          <RatingCard
           
           
           yelpData={yelpData}
@@ -149,6 +194,7 @@ class Home extends React.Component {
           review={review}
           cardData={cardData}
           ratingColor={ratingColor}
+          ratingData={ratingData}
           userId={this.props.user.id}
         />)}
        
