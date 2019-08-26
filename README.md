@@ -8,7 +8,7 @@
 #### Node.js, Express, Sequelize, PostGres, BCrypt, Passport
 
 
-### https://venu-app-v2.herokuapp.com/
+### https://venu-app-v3.herokuapp.com/
 
 ![Venu-Gif](https://media.giphy.com/media/f4IuMZi3T2m7x3do3M/giphy.gif)
 
